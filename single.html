@@ -79,8 +79,8 @@
 			  
 			</nav>
 		</div>
-		<div class="profile-img">
-			<img src="images/person.png" alt="img">
+		<div class="profile-img" id="photo">
+			<!--<img src="images/person.png" alt="img">-->
 		</div>
 	</header>
 	<!--Header-->
@@ -91,7 +91,7 @@
 		<!--/blog-->
 		<div class="container py-md-3">
 			<br>
-			<h2 class="signature"  >Qiao Yu </h2>
+			<h2 class="signature" id="name" ></h2>
 		<h2 class="heading text-capitalize mb-sm-5 mb-3" > PERSONAL PAGE </h2>
 			<div class="row inner-sec-wthree-agileits">
 				<div class="col-lg-8 blog-sp">
@@ -101,17 +101,12 @@
 								<img src="" alt="" class="img-fluid" />
 							</a>
 						</div>
-						<div class="blog_info">
+						<div class="blog_info" >
 							<h5>
 								Brief
 							</h5>
-							<p>Qiao Yu(余乔)
-                                Bachelor candidate
-								Embedded and Pervasive Computing (EPIC) Lab
-								School of Computer Science and Technology,
-								Huazhong University of Science and Technology, 1037 Luoyu Road, Wuhan, 430074, China
-								Email: u201517158@hust.edu.cn
-								Mobile: +86-18771920403</p>
+							<p id = "brief">
+								</p>
 						</div>
 						<div class="clearfix"></div>
 					</article>
@@ -161,33 +156,28 @@
 							<h5>
 								Awards
 							</h5>
-							<p>some awards  </p>
+							<p id="awards"></p>
 						</div>
 						<div class="clearfix"></div>
 					</article>
-
-
 				</div>
 
 				<aside class="col-lg-4 single-left">
-
 					<div class="blog_info">
-
 						<h5>Education</h5>
-						<p>Yu Qiao has been a Bachelor candidate in Software Engineering from HUST, China since 2015.
-							In 2019, she will be a Ph.D candidate at Embedded and Pervasive Computing (EPIC) Lab in School of Computer Science and Technology, HUST. </p>
+						<p id="education"> </p>
 					</div>
 					<br>
 					<div class="blog_info">
 						<h5>Research Interests</h5>
 						<img src="" class="img-fluid" alt="">
-						<p>Cognitive computing, software intelligence, Internet of Things, cloud computing and big data analytics, etc.</p>
+						<p id="research_interest"></p>
 					</div>
 					<br>
 					<div class="blog_info">
 						<h5>Hobbies</h5>
 						<img src="" class="img-fluid" alt="">
-						<p>Reading ,basketball, piano</p>
+						<p id="hobbies"></p>
 					</div>
 
 				</aside>
@@ -284,6 +274,53 @@
 	<!-- start-smoth-scrolling -->
 	
 <!-- //js-scripts -->
+<!-- read json -->
 
+<script>
+    $(function () {
+        load();
+        function load() {
+            $.ajax({
+                type: "get",
+                url: "json/YuQiao.json",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (i, n) {
+
+						$("#name").html("");
+						$("#name").append(n.name);
+
+                        $("#photo").html("");
+                        var html ="<img src=\"";
+                        html += n.photo;
+                        html += "\" alt=\"img\">";
+                        $("#photo").append(html);
+
+
+
+						/*var brief = n.brief;*/
+                        $("#brief").html("");
+                        $("#brief").append(n.brief);
+
+                        $("#education").html("");
+                        $("#education").append(n.education);
+
+                        $("#research_interest").html("");
+                        $("#research_interest").append(n.research_interest);
+
+                        $("#hobbies").html("");
+                        $("#hobbies").append(n.hobbies);
+
+                        $("#awards").html("");
+                        $("#awards").append(n.awards);
+
+                    })
+                },
+                error: function () {
+                }
+            })
+        }
+    })
+</script>
 </body>
 </html>
