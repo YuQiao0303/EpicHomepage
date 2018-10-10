@@ -624,7 +624,7 @@ h3.stat-title {
     font-weight: 900;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 0.1;
+    /*line-height: 0.1;*/ /*edit here*/
     letter-spacing: 3px;
 }
 .blog_info p a.user-blog {
@@ -659,7 +659,7 @@ ul.blog_list li a {
 .blog_info {
     padding: 2em;
     border: 3px solid #f5f5f5;
-    white-space:pre-line;/*edit*/
+    /*white-space:pre-line;!*edit*!*/
     width:100%;
     /*margin-bottom: 5%;*/
 }
@@ -674,7 +674,7 @@ ul.blog_list li a {
 .blog_info p {
     font-size: 15px;
     color: #4b4d4f;
-    margin: 1em 0;    /*edit 段落边缘空白*/
+    margin: 2em 0;    /*edit 段落边缘空白*/
     /*line-height: 28px;*/
     font-weight: 600;
     letter-spacing: 1px;
