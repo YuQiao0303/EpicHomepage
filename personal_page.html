@@ -106,7 +106,8 @@
 								Brief
 							</h5>
 							<p id = "brief">
-								</p>
+
+							</p>
 						</div>
 						<div class="clearfix"></div>
 					</article>
@@ -122,25 +123,10 @@
 								Publications
 							</h5>
 
-
+							<!--<br>-->
 							<table class="table14_3">
 
-								<tbody><tr>
-									<td>M. Chen, <strong>Jun Yang</strong>,"5G-Smart Diabetes: Towards Personalized Diabetes Diagnosis with Healthcare Big Data Clouds", IEEE Communications, to appear. (JCR一区期刊，影响因子10.435)</td>
-								</tr>
-								<tr>
-									<td>M. Chen, Jun Yang,"5G-Smart Diabetes: Towards Personalized Diabetes Diagnosis with Healthcare Big Data Clouds", IEEE Communications, to appear. (JCR一区期刊，影响因子10.435)</td>
-								</tr>
-								<tr>
-									<td>M. Chen, Jun Yang,"5G-Smart Diabetes: Towards Personalized Diabetes Diagnosis with Healthcare Big Data Clouds", IEEE Communications, to appear. (JCR一区期刊，影响因子10.435)</td>
-								</tr>
-								<tr>
-									<td>M. Chen, Jun Yang,"5G-Smart Diabetes: Towards Personalized Diabetes Diagnosis with Healthcare Big Data Clouds", IEEE Communications, to appear. (JCR一区期刊，影响因子10.435)</td>
-								</tr>
-								<tr>
-									<td>M. Chen, Jun Yang,"5G-Smart Diabetes: Towards Personalized Diabetes Diagnosis with Healthcare Big Data Clouds", IEEE Communications, to appear. (JCR一区期刊，影响因子10.435)</td>
-								</tr>
-								</tbody></table>
+								<tbody id="publications"></tbody></table>
 
 						</div>
 						<div class="clearfix"></div>
@@ -170,13 +156,13 @@
 					<br>
 					<div class="blog_info">
 						<h5>Research Interests</h5>
-						<img src="" class="img-fluid" alt="">
+						<!--<img src="" class="img-fluid" alt="">-->
 						<p id="research_interest"></p>
 					</div>
 					<br>
 					<div class="blog_info">
 						<h5>Hobbies</h5>
-						<img src="" class="img-fluid" alt="">
+						<!--<img src="" class="img-fluid" alt="">-->
 						<p id="hobbies"></p>
 					</div>
 
@@ -279,6 +265,26 @@
 <script>
     $(function () {
         load();
+        load_publications();
+        function load_publications(){
+            $.ajax({
+                type: "get",
+                url: "json/YuQiao_publications.json",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (i, n) {
+                        var publications_html = "<tr><td>";
+                        publications_html+=n.pid;
+                        publications_html+="</td><td>"
+                        publications_html+=n.content;
+                        publications_html+="</td></tr>"
+                        $("#publications").append(publications_html);
+                    })
+                },
+                error: function () {
+                }
+            })
+		}
         function load() {
             $.ajax({
                 type: "get",
