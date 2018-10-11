@@ -96,18 +96,20 @@
 
 
 			<!-- 导航区 -->
-			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active">
-					<a href="#home_tab_content" role="tab" data-toggle="tab">Home</a>
-				</li>
-				<li role="presentation">
-					<a href="#publications_tab_content" role="tab" data-toggle="tab">Publications</a>
-				</li>
-				<li role="presentation">
-					<a href="#awards_tab_content" role="tab" data-toggle="tab">Awards</a>
-				</li>
+			<div class="mytab">
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active">
+						<a href="#home_tab_content" role="tab" data-toggle="tab">Home</a>
+					</li>
+					<li role="presentation">
+						<a href="#publications_tab_content" role="tab" data-toggle="tab">Publications</a>
+					</li>
+					<li role="presentation">
+						<a href="#awards_tab_content" role="tab" data-toggle="tab">Awards</a>
+					</li>
+				</ul>
+			</div>
 
-			</ul>
 			<!-- 面板区 -->
 			<div class="tab-content">
 				<div role="tabpanel" class="tab-pane active" id="home_tab_content">
@@ -190,8 +192,31 @@
 					</div>
 					<!--home_tab_content-->
 				</div>
+				<!--publication content-->
 				<div role="tabpanel" class="tab-pane" id="publications_tab_content">
-					publications
+					<div class="col-lg-12 blog-sp">
+						<article class="blog-x row">
+							<div class="blog-img">
+								<a href="single.html">
+									<img src="" alt="" class="img-fluid" />
+								</a>
+							</div>
+							<div class="blog_info">
+								<h5>
+									Publications
+								</h5>
+
+								<br>
+								<table class="table14_3">
+
+									<tbody id="publications2"></tbody></table>
+
+							</div>
+							<div class="clearfix"></div>
+						</article>
+						<br>
+
+					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane" id="awards_tab_content">
 					awards
@@ -295,25 +320,25 @@
     $(function () {
         load();
         load_publications();
-        $("#home_tab").click(function () {
-            $("#publications_tab_content").css("display","none");
-            $("#awards_tab_content").css("display","none");
-            $("#home_tab_content").show();
-
-        })
-
-        $("#publications_tab").click(function () {
-            $("#home_tab_content").css("display","none");
-            $("#awards_tab_content").css("display","none");
-            $("#publications_tab_content").show();
-        })
-
-        $("#awards_tab").click(function () {
-            $("#home_tab_content").css("display","none");
-            $("#publications_tab_content").css("display","none");
-            $("#awards_tab_content").show();
-
-        })
+        // $("#home_tab").click(function () {
+        //     $("#publications_tab_content").css("display","none");
+        //     $("#awards_tab_content").css("display","none");
+        //     $("#home_tab_content").show();
+		//
+        // })
+		//
+        // $("#publications_tab").click(function () {
+        //     $("#home_tab_content").css("display","none");
+        //     $("#awards_tab_content").css("display","none");
+        //     $("#publications_tab_content").show();
+        // })
+		//
+        // $("#awards_tab").click(function () {
+        //     $("#home_tab_content").css("display","none");
+        //     $("#publications_tab_content").css("display","none");
+        //     $("#awards_tab_content").show();
+		//
+        // })
 
         function load_publications(){
             $.ajax({
@@ -328,6 +353,7 @@
                         publications_html+=n.content;
                         publications_html+="</td></tr>"
                         $("#publications").append(publications_html);
+                        $("#publications2").append(publications_html);
                     })
                 },
                 error: function () {
