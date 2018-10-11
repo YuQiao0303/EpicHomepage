@@ -93,80 +93,109 @@
 			<br>
 			<h2 class="signature" id="name" ></h2>
 		<h2 class="heading text-capitalize mb-sm-5 mb-3" > PERSONAL PAGE </h2>
-			<div class="row inner-sec-wthree-agileits">
-				<div class="col-lg-8 blog-sp">
-					<article class="blog-x row">
-						<div class="blog-img">
-							<a href="single.html">
-								<img src="" alt="" class="img-fluid" />
-							</a>
-						</div>
-						<div class="blog_info" >
-							<h5>
-								Brief
-							</h5>
-							<p id = "brief">
 
-							</p>
-						</div>
-						<div class="clearfix"></div>
-					</article>
-                    <br>
-					<article class="blog-x row">
-						<div class="blog-img">
-							<a href="single.html">
-								<img src="" alt="" class="img-fluid" />
-							</a>
-						</div>
-						<div class="blog_info">
-							<h5>
-								Publications
-							</h5>
 
+			<!-- 导航区 -->
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#home_tab_content" role="tab" data-toggle="tab">Home</a>
+				</li>
+				<li role="presentation">
+					<a href="#publications_tab_content" role="tab" data-toggle="tab">Publications</a>
+				</li>
+				<li role="presentation">
+					<a href="#awards_tab_content" role="tab" data-toggle="tab">Awards</a>
+				</li>
+
+			</ul>
+			<!-- 面板区 -->
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="home_tab_content">
+					<!--home_tab_content -->
+					<div class="row inner-sec-wthree-agileits" >
+						<div class="col-lg-8 blog-sp">
+							<article class="blog-x row">
+								<div class="blog-img">
+									<a href="single.html">
+										<img src="" alt="" class="img-fluid" />
+									</a>
+								</div>
+								<div class="blog_info" >
+									<h5>
+										Brief
+									</h5>
+									<p id = "brief">
+
+									</p>
+								</div>
+								<div class="clearfix"></div>
+							</article>
 							<br>
-							<table class="table14_3">
+							<article class="blog-x row">
+								<div class="blog-img">
+									<a href="single.html">
+										<img src="" alt="" class="img-fluid" />
+									</a>
+								</div>
+								<div class="blog_info">
+									<h5>
+										Publications
+									</h5>
 
-								<tbody id="publications"></tbody></table>
+									<br>
+									<table class="table14_3">
 
+										<tbody id="publications"></tbody></table>
+
+								</div>
+								<div class="clearfix"></div>
+							</article>
+							<br>
+							<article class="blog-x row">
+								<div class="blog-img">
+									<a href="single.html">
+										<img src="" alt="" class="img-fluid" />
+									</a>
+								</div>
+								<div class="blog_info">
+									<h5>
+										Awards
+									</h5>
+									<p id="awards"></p>
+								</div>
+								<div class="clearfix"></div>
+							</article>
 						</div>
-						<div class="clearfix"></div>
-					</article>
-					<br>
-					<article class="blog-x row">
-						<div class="blog-img">
-							<a href="single.html">
-								<img src="" alt="" class="img-fluid" />
-							</a>
-						</div>
-						<div class="blog_info">
-							<h5>
-								Awards
-							</h5>
-							<p id="awards"></p>
-						</div>
-						<div class="clearfix"></div>
-					</article>
+
+						<aside class="col-lg-4 single-left">
+							<div class="blog_info">
+								<h5>Education</h5>
+								<p id="education"> </p>
+							</div>
+							<br>
+							<div class="blog_info">
+								<h5>Research Interests</h5>
+								<!--<img src="" class="img-fluid" alt="">-->
+								<p id="research_interest"></p>
+							</div>
+							<br>
+							<div class="blog_info">
+								<h5>Hobbies</h5>
+								<!--<img src="" class="img-fluid" alt="">-->
+								<p id="hobbies"></p>
+							</div>
+
+						</aside>
+
+					</div>
+					<!--home_tab_content-->
 				</div>
-
-				<aside class="col-lg-4 single-left">
-					<div class="blog_info">
-						<h5>Education</h5>
-						<p id="education"> </p>
-					</div>
-					<br>
-					<div class="blog_info">
-						<h5>Research Interests</h5>
-						<!--<img src="" class="img-fluid" alt="">-->
-						<p id="research_interest"></p>
-					</div>
-					<br>
-					<div class="blog_info">
-						<h5>Hobbies</h5>
-						<!--<img src="" class="img-fluid" alt="">-->
-						<p id="hobbies"></p>
-					</div>
-
-				</aside>
+				<div role="tabpanel" class="tab-pane" id="publications_tab_content">
+					publications
+				</div>
+				<div role="tabpanel" class="tab-pane" id="awards_tab_content">
+					awards
+				</div>
 
 			</div>
 
@@ -266,6 +295,26 @@
     $(function () {
         load();
         load_publications();
+        $("#home_tab").click(function () {
+            $("#publications_tab_content").css("display","none");
+            $("#awards_tab_content").css("display","none");
+            $("#home_tab_content").show();
+
+        })
+
+        $("#publications_tab").click(function () {
+            $("#home_tab_content").css("display","none");
+            $("#awards_tab_content").css("display","none");
+            $("#publications_tab_content").show();
+        })
+
+        $("#awards_tab").click(function () {
+            $("#home_tab_content").css("display","none");
+            $("#publications_tab_content").css("display","none");
+            $("#awards_tab_content").show();
+
+        })
+
         function load_publications(){
             $.ajax({
                 type: "get",
