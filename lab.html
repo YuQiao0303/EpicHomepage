@@ -105,6 +105,7 @@
 		</div>
 		<div class="clear"></div>
 	</div>
+<!--
 	<div class="header-left">
 		<div class="main" style="margin-top: 0">
 			<div class="blog">
@@ -144,6 +145,10 @@
 			</div>
 		</div>
 	</div>
+-->
+    <div class="header-left" id="main">
+
+    </div>
 	<div class="clear"></div>
 </div>
 
@@ -197,12 +202,38 @@
 	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
 	<!-- //js -->
-
+    <script type="text/javascript" src="js/showdown.js"></script>
 	<!-- start-smoth-scrolling -->
-	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
+
+    <script type="text/javascript">
+        function load() {
+            readMd();
+            function readMd() {
+                var xhr = new XMLHttpRequest();
+                xhr.open('get','files/实验室简介.md',true);
+                xhr.send();
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200){
+                        alert("请求服务器数据成功且返回数据成功！");
+                        var converter = new showdown.Converter();
+                        //进行转换
+                        console.log(xhr.responseText);
+                        var htmls = converter.makeHtml(xhr.responseText);
+                        //展示到对应的地方  result便是id名称
+                        document.getElementById("main").innerHTML = htmls;
+                    }
+                    else {
+                        console.log(xhr.status);
+                    }
+                 };
+            }
+        }
+
+    </script>
+    <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
 				event.preventDefault();
@@ -213,6 +244,7 @@
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
+		    load();
 			/*
 				var defaults = {
 				containerID: 'toTop', // fading element id
@@ -226,6 +258,7 @@
 								
 			});
 	</script>
+
 	<!-- //here ends scrolling icon -->
 	<!-- start-smoth-scrolling -->
 	
