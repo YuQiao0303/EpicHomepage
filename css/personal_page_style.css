@@ -5,6 +5,23 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 /*fix the left column too left bug */
+.viewMore {
+    text-align: right;
+    margin-top: 1em;
+}
+.viewMore a{
+    color:#3F51B5;
+    width:150px;
+    font-weight:bold;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.viewMore a:hover,.viewMore a:active,li> .active.show
+{
+    background-color:#3F51B5;
+    color: white;
+}
 .inner-sec-wthree-agileits{
     margin-left: 0;
 }
@@ -61,21 +78,6 @@ body{
     background-color:#3F51B5;
     color:#FFFFFF;
 }
-/*.mytab a:link*/
-/*{*/
-    /*color:#4b4d4f;*/
-    /*!*background-color:#bebebe;*!*/
-    /*!*background-color:#f5f5f5;*!*/
-    /*border:3px solid #F5F5F5;*/
-    /*border-bottom: 0;*/
-/*}*/
-/*.mytab a:hover,.mytab a:active,li> .active.show*/
-/*{*/
-    /*color:#FFFFFF;*/
-    /*background-color:#3F51B5;*/
-
-/*}*/
-
 
 /*-- tab --*/
 /*-- profile-img --*/
