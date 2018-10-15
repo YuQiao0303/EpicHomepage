@@ -98,8 +98,8 @@
 			<!-- 导航区 -->
 			<div class="mytab">
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active">
-						<a href="#home_tab_content" role="tab" data-toggle="tab">Home</a>
+					<li role="presentation" >
+						<a href="#home_tab_content" class="active show" role="tab" data-toggle="tab">Home</a>
 					</li>
 					<li role="presentation">
 						<a href="#publications_tab_content" role="tab" data-toggle="tab">Publications</a>
@@ -163,9 +163,13 @@
 									<h5>
 										Awards
 									</h5>
+                                    <br>
                                     <table class="table14_3">
                                         <tbody id="awards"></tbody>
                                     </table>
+                                    <div class = "showAll">
+                                        
+                                    </div>
 								</div>
 								<div class="clearfix"></div>
 							</article>
@@ -355,13 +359,13 @@
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
-                        var awards_html = "<tr><td>";
+                        var awards_html = "<tr><td style = \"width:20px;\">";
                         awards_html+=n.pid;
                         awards_html+="</td><td>"
                         awards_html+=n.content;
                         awards_html+="</td></tr>"
-                        $("#awards").append(awards_html);
                         $("#awards2").append(awards_html);
+                        if(i<6){$("#awards").append(awards_html);}
                     })
                 },
                 error: function () {
@@ -375,13 +379,13 @@
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
-                        var publications_html = "<tr><td>";
+                        var publications_html = "<tr><td style = \"width:20px;\">";
                         publications_html+=n.pid;
                         publications_html+="</td><td>"
                         publications_html+=n.content;
                         publications_html+="</td></tr>"
-                        $("#publications").append(publications_html);
                         $("#publications2").append(publications_html);
+                        if(i<6){$("#publications").append(publications_html);}
                     })
                 },
                 error: function () {
@@ -412,7 +416,7 @@
                         $("#education").append(n.education);
                         $("#research_interest").append(n.research_interest);
                         $("#hobbies").append(n.hobbies);
-                        $("#awards").append(n.awards);
+                        // $("#awards").append(n.awards);
 
 
                     })
