@@ -357,40 +357,56 @@
         load_publications();
         load_awards();
         function load_awards() {
+            var awards_html="";
             $.ajax({
                 type: "get",
                 url: "json/YuQiao_awards.json",
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
-                        var awards_html = "<tr><td style = \"width:20px;\">";
-                        awards_html+=n.pid;
+                        awards_html="";
+                        awards_html += "<tr><td style = \"width:20px;\">";
+                        awards_html+=n.id;
                         awards_html+="</td><td>"
                         awards_html+=n.content;
                         awards_html+="</td></tr>"
                         $("#awards2").append(awards_html);
                         if(i<6){$("#awards").append(awards_html);}
                     })
+                    // alert(awards_html);
+                    if(awards_html==""){
+
+                        awards_html+="<tr style = \"border: 0;\"><td >No awards yet.</td><tr></tr>";
+                        $("#awards").append(awards_html);
+                        $("#awards2").append(awards_html);
+                    }
+                    // alert(awards_html);
                 },
                 error: function () {
                 }
             })
         }
         function load_publications(){
+            var publications_html="";
             $.ajax({
                 type: "get",
                 url: "json/YuQiao_publications.json",
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
-                        var publications_html = "<tr><td style = \"width:20px;\">";
-                        publications_html+=n.pid;
+                        publications_html = "<tr><td style = \"width:20px;\">";
+                        publications_html+=n.id;
                         publications_html+="</td><td>"
                         publications_html+=n.content;
                         publications_html+="</td></tr>"
                         $("#publications2").append(publications_html);
                         if(i<6){$("#publications").append(publications_html);}
                     })
+                    if(publications_html==""){
+                        publications_html+="<tr style = \"border: 0;\"><td >No publications yet.</td><tr></tr>";
+                        $("#publications").append(publications_html);
+                        $("#publications2").append(publications_html);
+                    }
                 },
                 error: function () {
                 }

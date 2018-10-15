@@ -1,29 +1,29 @@
 [
-  {"pid":1,
+  {"id":1,
     "content":"award 1"
   },
-  {"pid":2,
-    "content":"awards 2"
+  {"id":2,
+    "content":"award 2"
   },
-  {"pid":3,
+  {"id":3,
     "content":"award 1"
   },
-  {"pid":4,
+  {"id":4,
     "content":"award 1"
   },
-  {"pid":5,
+  {"id":5,
     "content":"award 1"
   },
-  {"pid":6,
+  {"id":6,
     "content":"award 1"
   },
-  {"pid":7,
+  {"id":7,
     "content":"award 1"
   },
-  {"pid":8,
+  {"id":8,
     "content":"award 1"
   },
-  {"pid":9,
+  {"id":9,
     "content":"award 1"
   }
 ]

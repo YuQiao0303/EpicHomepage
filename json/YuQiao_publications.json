@@ -1,32 +1,32 @@
 [
-  {"pid":1,
+  {"id":1,
     "content":" that's interesting"
   },
-  {"pid":2,
-    "content":"M. Chen, Jun Yang,\"5G-Smart Diabetes: Towards Personalized Diabetes Diagnosis with Healthcare Big Data Clouds\", IEEE Communications, to appear. (JCR一区期刊，影响因子10.435)"
+  {"id":2,
+    "content":"<strong>M. Chen</strong>, Jun Yang,\"5G-Smart Diabetes: Towards Personalized Diabetes Diagnosis with Healthcare Big Data Clouds\", IEEE Communications, to appear. (JCR一区期刊，影响因子10.435)"
   },
-  {"pid":3,
+  {"id":3,
     "content":" that's interesting"
   },
-  {"pid":4,
+  {"id":4,
     "content":" that's interesting"
   },
-  {"pid":5,
+  {"id":5,
     "content":" that's interesting"
   },
-  {"pid":6,
+  {"id":6,
     "content":" that's interesting"
   },
-  {"pid":7,
+  {"id":7,
     "content":" that's interesting"
   },
-  {"pid":8,
+  {"id":8,
     "content":" that's interesting"
   },
-  {"pid":9,
+  {"id":9,
     "content":" that's interesting"
   },
-  {"pid":10,
+  {"id":10,
     "content":" that's interesting"
   }
 ]
