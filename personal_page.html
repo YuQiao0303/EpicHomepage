@@ -146,8 +146,8 @@
 
 									<br>
 									<table class="table14_3">
-
-										<tbody id="publications"></tbody></table>
+										<tbody id="publications"></tbody>
+                                    </table>
 
 								</div>
 								<div class="clearfix"></div>
@@ -163,7 +163,9 @@
 									<h5>
 										Awards
 									</h5>
-									<p id="awards"></p>
+                                    <table class="table14_3">
+                                        <tbody id="awards"></tbody>
+                                    </table>
 								</div>
 								<div class="clearfix"></div>
 							</article>
@@ -209,7 +211,8 @@
 								<br>
 								<table class="table14_3">
 
-									<tbody id="publications2"></tbody></table>
+									<tbody id="publications2"></tbody>
+                                </table>
 
 							</div>
 							<div class="clearfix"></div>
@@ -219,7 +222,10 @@
 					</div>
 				</div>
 				<div role="tabpanel" class="tab-pane" id="awards_tab_content">
-					awards
+                    <table class="table14_3">
+
+                        <tbody id="awards2"></tbody>
+                    </table>
 				</div>
 
 			</div>
@@ -322,6 +328,30 @@
         load();
         load_publications();
 
+
+
+
+        load_awards();
+        function load_awards() {
+            $.ajax({
+                type: "get",
+                url: "json/YuQiao_awards.json",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (i, n) {
+                        var awards_html = "<tr><td>";
+                        awards_html+=n.pid;
+                        awards_html+="</td><td>"
+                        awards_html+=n.content;
+                        awards_html+="</td></tr>"
+                        $("#awards").append(awards_html);
+                        $("#awards2").append(awards_html);
+                    })
+                },
+                error: function () {
+                }
+            })
+        }
         function load_publications(){
             $.ajax({
                 type: "get",
@@ -354,7 +384,7 @@
                         var html_photo ="<img src=\"";
                         html_photo += n.photo;
                         html_photo += "\" alt=\"img\">";
-                        $("#photo").append(html_photo);
+                        $("#photo").append(html_photo)
 
                         var html_title ="";
                         html_title+=n.name;
