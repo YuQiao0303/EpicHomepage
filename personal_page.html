@@ -360,7 +360,7 @@
             var awards_html="";
             $.ajax({
                 type: "get",
-                url: "json/YuQiao_awards.json",
+                url: "json/YuQiao/YuQiao_awards.json",
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
@@ -390,7 +390,7 @@
             var publications_html="";
             $.ajax({
                 type: "get",
-                url: "json/YuQiao_publications.json",
+                url: "json/YuQiao/YuQiao_publications.json",
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
@@ -415,7 +415,7 @@
         function load() {
             $.ajax({
                 type: "get",
-                url: "json/YuQiao.json",
+                url: "json/YuQiao/YuQiao.json",
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
