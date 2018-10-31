@@ -258,9 +258,9 @@ ul{
 label{
 	margin:0;
 }
-img{
+/* img{
 	width:100%;
-}
+} */
 
 
 /*-- banner --*/
@@ -1449,7 +1449,7 @@ h5.mt-0 {
 
 /*-- clients --*/
 .clients-main{
-	background: url(../images/1.jpg) no-repeat center;
+	/*-- background: url(../images/achievement01.jpg) no-repeat center;--*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1549,10 +1549,10 @@ p.para-w3-agile {
 }
 .flexslider .slides img {
     display: inline-block;
-    width: 120px;
-    height: 120px;
-    border: 4px solid #fff;
-	border-radius: 50%;
+    width: 440px;
+    height: 294px;
+    /* border: 4px solid #fff;
+	border-radius: 50%;  */
 }
 .g1 p span.fa {
 	font-size: 1.8em;
