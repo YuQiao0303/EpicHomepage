@@ -224,10 +224,7 @@
 							</h5>
 
 							<br>
-							<table class="table14_3">
-
-								<tbody id="publications2"></tbody>
-							</table>
+							<div id="lab_director"></div>
 
 						</div>
 						<div class="clearfix"></div>
@@ -325,6 +322,7 @@
         function load() {
             readMd("实验室简介.md", "lab_brief");
             readMd("最新动态.md", "lab_news");
+            readMd("director.md", "lab_director");
             function readMd(filePath, classId) {
                 var xhr = new XMLHttpRequest();
                 xhr.open('get','files/'+filePath,true);

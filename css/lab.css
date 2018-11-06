@@ -28,6 +28,7 @@ img{max-width:100%;}
     /* src: url( '../fonts/Amble-Light-webfont.ttf ') format("truetype"); */
 }
 body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding:0;
     margin:0;
     background:#fff;
