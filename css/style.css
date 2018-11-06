@@ -1457,7 +1457,8 @@ h5.mt-0 {
     -ms-background-size: cover;
 }
 .wthree-different-dot1 {
-    background: rgba(37, 37, 37, 0.54);
+    /*background: rgba(37, 37, 37, 0.54);*/
+    background-color: #333;
 }
 .clients-main h3.heading {
     color: #fff;
@@ -1594,12 +1595,11 @@ p.para-w3-agile {
 .news-grids a {
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 2px;
-    border: 1px solid #333;
     padding: 10px 25px;
-    color: #333;
+    color: #3F51B5;
     display: inline-block;
     margin-top: 1em;
+    text-transform:uppercase;
 }
 .news-grids a:hover,.card-body a.btn:hover{
     background: #3F51B5;
