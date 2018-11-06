@@ -247,7 +247,7 @@
 							</h5>
 
 							<br>
-							<table class="table14_3">
+							<div id="lab_research"></div>
 
 								<tbody id="awards2"></tbody>
 							</table>
@@ -322,7 +322,8 @@
         function load() {
             readMd("实验室简介.md", "lab_brief");
             readMd("最新动态.md", "lab_news");
-            readMd("director.md", "lab_director");
+            readMd("lab_director.md", "lab_director");
+            readMd("lab_research.md", "lab_research");
             function readMd(filePath, classId) {
                 var xhr = new XMLHttpRequest();
                 xhr.open('get','files/'+filePath,true);
