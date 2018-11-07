@@ -160,13 +160,16 @@
 		<div class="mytab">
 			<ul class="nav nav-tabs" role="tablist">
 				<li role="presentation" >
-					<a href="#home_tab_content" class="active show" id = "home_tab" role="tab" data-toggle="tab">OverView</a>
+					<a href="#home_tab_content" class="active show" id = "home_tab" role="tab" data-toggle="tab">Universities</a>
 				</li>
 				<li role="presentation">
-					<a href="#publications_tab_content" id = "publications_tab" role="tab" data-toggle="tab">Director</a>
+					<a href="#visitors_tab_content"  id = "visitors_tab" role="tab" data-toggle="tab">Visitors</a>
 				</li>
 				<li role="presentation">
-					<a href="#awards_tab_content" id = "awards_tab" role="tab" data-toggle="tab">Research</a>
+					<a href="#conferences_tab_content" id = "conferences_tab" role="tab" data-toggle="tab">Conferences</a>
+				</li>
+				<li role="presentation">
+					<a href="#seminars_tab_content" id = "seminars_tab" role="tab" data-toggle="tab">Seminars</a>
 				</li>
 			</ul>
 		</div>
@@ -174,43 +177,6 @@
 		<!-- 面板区 -->
 		<div class="tab-content">
 			<div role="tabpanel" class="tab-pane active" id="home_tab_content">
-				<!--home_tab_content -->
-				<div class="row inner-sec-wthree-agileits" >
-					<div class="col-lg-8 blog-sp">
-						<article class="blog-x row">
-							<div class="blog-img">
-								<a href="single.html">
-									<img src="" alt="" class="img-fluid" />
-								</a>
-							</div>
-							<div class="blog_info" >
-								<h5>
-									Brief
-								</h5>
-                                <div id="lab_brief"></div>
-                            </div>
-							<div class="clearfix"></div>
-						</article>
-						<br>
-
-					</div>
-
-					<aside class="col-lg-4 single-left">
-						<div class="blog_info">
-							<h5>News</h5>
-							<p id="education"> </p>
-                            <div id="lab_news"></div>
-						</div>
-						<br>
-
-
-					</aside>
-
-				</div>
-				<!--home_tab_content-->
-			</div>
-			<!--publication content-->
-			<div role="tabpanel" class="tab-pane" id="publications_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
 						<!--<div class="blog-img">-->
@@ -220,14 +186,36 @@
 						<!--</div>-->
 						<div class="blog_info">
 							<h5>
-								Director
+								Universities
 							</h5>
 
 							<br>
-							<table class="table14_3">
+							<div id="international_universities"></div>
 
-								<tbody id="publications2"></tbody>
-							</table>
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
+
+				</div>
+				<!--home_tab_content-->
+			</div>
+			<!--publication content-->
+			<div role="tabpanel" class="tab-pane" id="visitors_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+						<!--<div class="blog-img">-->
+						<!--<a href="single.html">-->
+						<!--<img src="" alt="" class="img-fluid" />-->
+						<!--</a>-->
+						<!--</div>-->
+						<div class="blog_info">
+							<h5>
+								Visitors
+							</h5>
+
+							<br>
+							<div id="international_visitors"></div>
 
 						</div>
 						<div class="clearfix"></div>
@@ -236,7 +224,7 @@
 
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="awards_tab_content">
+			<div role="tabpanel" class="tab-pane" id="conferences_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
 						<!--<div class="blog-img">-->
@@ -246,14 +234,35 @@
 						<!--</div>-->
 						<div class="blog_info">
 							<h5>
-								Research
+								Conferences
 							</h5>
 
 							<br>
-							<table class="table14_3">
+							<div id="international_conferences"></div>
 
-								<tbody id="awards2"></tbody>
-							</table>
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
+
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="seminars_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+						<!--<div class="blog-img">-->
+						<!--<a href="single.html">-->
+						<!--<img src="" alt="" class="img-fluid" />-->
+						<!--</a>-->
+						<!--</div>-->
+						<div class="blog_info">
+							<h5>
+								Seminars
+							</h5>
+
+							<br>
+							<div id="international_seminars"></div>
+
 						</div>
 						<div class="clearfix"></div>
 					</article>
@@ -323,8 +332,10 @@
 
     <script type="text/javascript">
         function load() {
-            readMd("实验室简介.md", "lab_brief");
-            readMd("最新动态.md", "lab_news");
+            readMd("international_universities.md", "international_universities");
+            readMd("international_visitors.md", "international_visitors");
+            readMd("international_conferences.md", "international_conferences");
+            readMd("international_seminars.md", "international_seminars");
             function readMd(filePath, classId) {
                 var xhr = new XMLHttpRequest();
                 xhr.open('get','files/'+filePath,true);
