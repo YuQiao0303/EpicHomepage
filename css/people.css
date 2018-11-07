@@ -32,6 +32,10 @@ img{max-width:100%;}
 .w3_agileits-team1 h5 {
     line-height: 1.2;
 }
+.w3_agileits-team1 img {
+    max-width: 80%;
+    background: url("../images/person_background.png");   /*edit background color of the photo*/
+}
 /*end reset*/
 @font-face {
     font-family: 'AmbleRegular';
