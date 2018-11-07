@@ -3259,7 +3259,7 @@
      * If a `defaultValue` is provided, it'll use that over `string`,
      * if a value isn't found in provided language files.
      * This is useful if you want to have a descriptive key for token replacement
-     * but have a succinct localized string and not require `en.json` to be included.
+     * but have a succinct localized string and not require `en.personal_information` to be included.
      *
      * Currently, it is used for the progress bar timing.
      * ```js
@@ -7134,9 +7134,9 @@
 
       if ("json" in options && options.json !== false) {
           isJson = true;
-          headers["accept"] || headers["Accept"] || (headers["Accept"] = "application/json"); //Don't override existing accept header declared by user
+          headers["accept"] || headers["Accept"] || (headers["Accept"] = "application/personal_information"); //Don't override existing accept header declared by user
           if (method !== "GET" && method !== "HEAD") {
-              headers["content-type"] || headers["Content-Type"] || (headers["Content-Type"] = "application/json"); //Don't override existing accept header declared by user
+              headers["content-type"] || headers["Content-Type"] || (headers["Content-Type"] = "application/personal_information"); //Don't override existing accept header declared by user
               body = JSON.stringify(options.json === true ? body : options.json);
           }
       }
@@ -25240,7 +25240,7 @@
       // Check if data-setup attr exists.
       if (dataSetup !== null) {
         // Parse options JSON
-        // If empty string, make it a parsable json object.
+        // If empty string, make it a parsable personal_information object.
         var _safeParseTuple = tuple(dataSetup || '{}'),
             err = _safeParseTuple[0],
             data = _safeParseTuple[1];

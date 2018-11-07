@@ -412,7 +412,7 @@
 	<!-- start-smoth-scrolling -->
 	
 <!-- //js-scripts -->
-<!-- read json -->
+<!-- read personal_information -->
 
 <script>
 
@@ -426,11 +426,17 @@
         load();
         load_publications();
         load_awards();
+        getURLParameter(name);
+        function getURLParameter(parameter_name) {
+            return decodeURIComponent((new RegExp('[?|&]' + parameter_name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+        }
+
         function load_awards() {
             var awards_html="";
+            var name = getURLParameter("name");
             $.ajax({
                 type: "get",
-                url: "json/YuQiao/YuQiao_awards.json",
+                url: "personal_information/"+name+"/"+name+"_awards.json",
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
@@ -458,9 +464,10 @@
         }
         function load_publications(){
             var publications_html="";
+            var name = getURLParameter("name");
             $.ajax({
                 type: "get",
-                url: "json/YuQiao/YuQiao_publications.json",
+                url: "personal_information/"+name+"/"+name+"_publications.json",
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
@@ -483,9 +490,10 @@
             })
 		}
         function load() {
+            var name = getURLParameter("name");
             $.ajax({
                 type: "get",
-                url: "json/YuQiao/YuQiao.json",
+                url: "personal_information/"+name+"/"+name+".json",
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
@@ -507,8 +515,6 @@
                         $("#research_interest").append(n.research_interest);
                         $("#hobbies").append(n.hobbies);
                         // $("#awards").append(n.awards);
-
-
                     })
                 },
                 error: function () {

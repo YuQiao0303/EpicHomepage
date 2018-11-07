@@ -17,7 +17,7 @@ var document = _interopDefault(require('global/document'));
 var tsml = _interopDefault(require('tsml'));
 var xhr = _interopDefault(require('xhr'));
 var vtt = _interopDefault(require('videojs-vtt.js'));
-var safeParseTuple = _interopDefault(require('safe-json-parse/tuple'));
+var safeParseTuple = _interopDefault(require('safe-personal_information-parse/tuple'));
 var URLToolkit = _interopDefault(require('url-toolkit'));
 var m3u8Parser = require('m3u8-parser');
 var mpdParser = require('mpd-parser');
@@ -3213,7 +3213,7 @@ var Component = function () {
    * If a `defaultValue` is provided, it'll use that over `string`,
    * if a value isn't found in provided language files.
    * This is useful if you want to have a descriptive key for token replacement
-   * but have a succinct localized string and not require `en.json` to be included.
+   * but have a succinct localized string and not require `en.personal_information` to be included.
    *
    * Currently, it is used for the progress bar timing.
    * ```js
@@ -23096,7 +23096,7 @@ var Player = function (_Component) {
     // Check if data-setup attr exists.
     if (dataSetup !== null) {
       // Parse options JSON
-      // If empty string, make it a parsable json object.
+      // If empty string, make it a parsable personal_information object.
       var _safeParseTuple = safeParseTuple(dataSetup || '{}'),
           err = _safeParseTuple[0],
           data = _safeParseTuple[1];
