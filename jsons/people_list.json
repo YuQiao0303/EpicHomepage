@@ -1,9 +1,9 @@
 [
   {"id":1,
-    "name":"YuQiao",
-    "nameToShow":"Qiao Yu",
-    "brief":"Bachlor Candidate<br>research interests here what if it's longer",
-    "photo":"./personal_information/YuQiao/YuQiao_profile_photo.png"
+    "name":"YimingMiao",
+    "nameToShow":"Yiming Miao",
+    "brief":"PhD Candidate<br>research interests here ",
+    "photo":"./personal_information/YimingMiao/YimingMiao_profile_photo.png"
   },
   {"id":2,
     "name":"ShenKe",
@@ -12,16 +12,9 @@
     "photo":"./personal_information/ShenKe/ShenKe_profile_photo.png"
   },
   {"id":3,
-    "name":"ShenKe",
-    "nameToShow":"Ke Shen",
-    "brief":"Bachlor Candidate<br>research interests here",
-    "photo":"./personal_information/ShenKe/ShenKe_profile_photo.png"
-  },
-  {"id":4,
     "name":"YuQiao",
     "nameToShow":"Qiao Yu",
-    "brief":"Bachlor Candidate<br>research interests here what if it's longer",
+    "brief":"Bachlor Candidate<br>research interests here ",
     "photo":"./personal_information/YuQiao/YuQiao_profile_photo.png"
   }
-
 ]
