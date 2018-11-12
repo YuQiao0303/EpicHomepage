@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>People</title>
+	<title>Members</title>
 
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -69,7 +69,7 @@
 							</a>
 							<ul class="dropdown-menu agile_short_dropdown">
 								<li>
-									<a href="people.html">People Page</a>
+									<a href="members.html">People Page</a>
 								</li>
 								<li>
 									<a href="personal_page.html">Personal Page</a>
@@ -153,17 +153,17 @@
 	<div class="container py-md-3">
 		<br>
 		<h2 class="signature" id="name" ></h2>
-		<h2 class="heading text-capitalize mb-sm-5 mb-3" id="personal_page"> PEOPLE </h2>
+		<h2 class="heading text-capitalize mb-sm-5 mb-3" id="personal_page"> Members </h2>
 
 
 		<!-- 导航区 -->
 		<div class="mytab">
 			<ul class="nav nav-tabs" role="tablist">
 				<li role="presentation">
-					<a href="#publications_tab_content" class="active show" id = "publications_tab" role="tab" data-toggle="tab">People</a>
+					<a href="#teachers_tab_content" class="active show" id = "teachers_tab" role="tab" data-toggle="tab">Teachers</a>
 				</li>
 				<li role="presentation">
-					<a href="#awards_tab_content" id = "awards_tab" role="tab" data-toggle="tab">Research</a>
+					<a href="#students_tab_content" id = "students_tab" role="tab" data-toggle="tab">Students</a>
 				</li>
 			</ul>
 		</div>
@@ -172,28 +172,17 @@
 		<div class="tab-content">
 
 			<!--publication content-->
-			<div role="tabpanel" class="tab-pane active" id="publications_tab_content">
+			<div role="tabpanel" class="tab-pane active" id="teachers_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
-						<!--<div class="blog-img">-->
-						<!--<a href="single.html">-->
-						<!--<img src="" alt="" class="img-fluid" />-->
-						<!--</a>-->
-						<!--</div>-->
-						<div class="blog_info">
-							<h5>
-								People
-							</h5>
-							<br>
-							<!--<div id="people"></div>-->
-							<!--from index-->
-							<!--from index-->
-							<div class="row team-grids" id="people">
-							<!--here we read json-->
-							</div>
-							<!--from index-->
 
-							<!--from index-->
+						<div class="blog_info">
+							<br>
+							<div class="row team-grids" id="teachers">
+							<!--here we read json-->
+                                hahaha
+							</div>
+
 						</div>
 						<div class="clearfix"></div>
 					</article>
@@ -201,30 +190,22 @@
 
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="awards_tab_content">
-				<div class="blog-sp">
-					<article class="blog-x">
-						<!--<div class="blog-img">-->
-						<!--<a href="single.html">-->
-						<!--<img src="" alt="" class="img-fluid" />-->
-						<!--</a>-->
-						<!--</div>-->
-						<div class="blog_info">
-							<h5>
-								Research
-							</h5>
+			<div role="tabpanel" class="tab-pane" id="students_tab_content">
+                <div class="blog-sp">
+                    <article class="blog-x">
 
-							<br>
-							<div id="lab_research"></div>
+                        <div class="blog_info">
+                            <br>
+                            <div class="row team-grids" id="students">
+                                <!--here we read json-->
+                            </div>
 
-							<tbody id="awards2"></tbody>
-							</table>
-						</div>
-						<div class="clearfix"></div>
-					</article>
-					<br>
+                        </div>
+                        <div class="clearfix"></div>
+                    </article>
+                    <br>
 
-				</div>
+                </div>
 			</div>
 		</div>
 	</div>
@@ -248,7 +229,7 @@
 						<a href="lab.html">Lab</a>
 					</li>
 					<li>
-						<a href="people.html">People</a>
+						<a href="members.html">People</a>
 					</li>
 					<li>
 						<a href="publications.html">Publications</a>
@@ -286,30 +267,30 @@
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 
-<script type="text/javascript">
-    function load() {
-        // readMd("people.md", "people");
-        readMd("lab_research.md", "lab_research");
-        function readMd(filePath, classId) {
-            var xhr = new XMLHttpRequest();
-            xhr.open('get','files/'+filePath,true);
-            xhr.send();
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4 && xhr.status === 200){
-                    var converter = new showdown.Converter();
-                    //进行转换
-                    var htmls = converter.makeHtml(xhr.responseText);
-                    //展示到对应的地方  result便是id名称
-                    document.getElementById(classId).innerHTML = htmls;
-                }
-                else {
+<!--<script type="text/javascript">-->
+    <!--function load() {-->
+        <!--// readMd("people.md", "people");-->
+        <!--readMd("lab_research.md", "lab_research");-->
+        <!--function readMd(filePath, classId) {-->
+            <!--var xhr = new XMLHttpRequest();-->
+            <!--xhr.open('get','files/'+filePath,true);-->
+            <!--xhr.send();-->
+            <!--xhr.onreadystatechange = function () {-->
+                <!--if (xhr.readyState === 4 && xhr.status === 200){-->
+                    <!--var converter = new showdown.Converter();-->
+                    <!--//进行转换-->
+                    <!--var htmls = converter.makeHtml(xhr.responseText);-->
+                    <!--//展示到对应的地方  result便是id名称-->
+                    <!--document.getElementById(classId).innerHTML = htmls;-->
+                <!--}-->
+                <!--else {-->
 
-                }
-            };
-        }
-    }
+                <!--}-->
+            <!--};-->
+        <!--}-->
+    <!--}-->
 
-</script>
+<!--</script>-->
 <script type="text/javascript">
     jQuery(document).ready(function($) {
         $(".scroll").click(function(event){
@@ -321,7 +302,7 @@
 <!-- here stars scrolling icon -->
 <script type="text/javascript">
     $(document).ready(function() {
-        load();
+
         /*
             var defaults = {
             containerID: 'toTop', // fading element id
@@ -353,7 +334,7 @@
             // var name = getURLParameter("name");
             $.ajax({
                 type: "get",
-                url: "jsons/people_list.json",
+                url: "jsons/students_list.json",
                 dataType: "json",
                 success: function (data) {
 
@@ -367,7 +348,7 @@
                             "<p>"+n.brief+"</p>\n" +
                             "</div>";
                         // alert(html);
-                         $("#people").append(html);
+                         $("#students").append(html);
 
                     })
                 },

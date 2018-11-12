@@ -6,10 +6,22 @@
     "photo":"./personal_information/YimingMiao/YimingMiao_profile_photo.png"
   },
   {"id":2,
+    "name":"YixueHao",
+    "nameToShow":"Yixue Hao",
+    "brief":"Master candidate<br>research interests here ",
+    "photo":"./personal_information/YixueHao/YixueHao_profile_photo.png"
+  },
+  {"id":2,
     "name":"QuRonghui",
     "nameToShow":"Ronghui Qu",
     "brief":"Master candidate<br>research interests here ",
     "photo":"./personal_information/QuRonghui/QuRonghui_profile_photo.png"
+  },
+  {"id":2,
+    "name":"JiayiLu",
+    "nameToShow":"Jiayi Lu",
+    "brief":"Master candidate<br>research interests here ",
+    "photo":"./personal_information/JiayiLu/JiayiLu_profile_photo.png"
   },
   {"id":4,
     "name":"WangRui",
@@ -96,6 +108,12 @@
     "photo":"./personal_information/YuanXinyu/YuanXinyu_profile_photo.png"
   },
   {"id":4,
+    "name":"YuQiao",
+    "nameToShow":"Qiao Yu",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/YuQiao/YuQiao_profile_photo.png"
+  },
+  {"id":4,
     "name":"ZhangXu",
     "nameToShow":"Xu Zhang",
     "brief":"Bachlor Candidate<br>research interests here ",
@@ -106,11 +124,5 @@
     "nameToShow":"Ziliang Li",
     "brief":"Bachlor Candidate<br>research interests here ",
     "photo":"./personal_information/LiZiliang/LiZiliang_profile_photo.png"
-  },
-  {"id":4,
-    "name":"YuQiao",
-    "nameToShow":"Qiao Yu",
-    "brief":"Bachlor Candidate<br>research interests here ",
-    "photo":"./personal_information/YuQiao/YuQiao_profile_photo.png"
   }
 ]
