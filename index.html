@@ -390,7 +390,7 @@
 
 		</div>
 		<div class="news-grids text-right">
-			<a href="single.html" style="text-align: right">More Members</a>
+			<a href="members.html" style="text-align: right">More Members</a>
 		</div>
 
 	</div>
@@ -506,7 +506,7 @@
             // var name = getURLParameter("name");
             $.ajax({
                 type: "get",
-                url: "jsons/students_list.json",
+                url: "jsons/members_list.json",
                 dataType: "json",
                 success: function (data) {
 
@@ -523,7 +523,6 @@
                         	// alert(html);
                         	$("#people").append(html);
 						}
-
                     })
                 },
                 error: function () {

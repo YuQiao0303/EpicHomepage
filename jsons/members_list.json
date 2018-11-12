@@ -24,6 +24,12 @@
     "photo":"./personal_information/JiayiLu/JiayiLu_profile_photo.png"
   },
   {"id":4,
+    "name":"LiWei",
+    "nameToShow":"LiWei",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/LiWei/LiWei_profile_photo.png"
+  },
+  {"id":4,
     "name":"WangRui",
     "nameToShow":"Rui Wang",
     "brief":"Bachlor Candidate<br>research interests here ",
