@@ -32,9 +32,13 @@ img{max-width:100%;}
 .w3_agileits-team1 h5 {
     line-height: 1.2;
 }
+.people_img {
+    border-radius: 90%;
+}
 .w3_agileits-team1 img {
     /*max-width: 80%;*/
     /*margin-left: 10%;*/
+    /*border-radius: 90%;*/
     background: url("../images/person_background.png");   /*edit background color of the photo*/
 }
 .w3_agileits-team1  {

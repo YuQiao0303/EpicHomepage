@@ -18,6 +18,24 @@
     "photo":"./personal_information/WangRui/WangRui_profile_photo.png"
   },
   {"id":4,
+    "name":"GaoxiangWu",
+    "nameToShow":"Gaoxiang Wu",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/GaoxiangWu/GaoxiangWu_profile_photo.png"
+  },
+  {"id":4,
+    "name":"JiangYingying",
+    "nameToShow":"Yingying Jiang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/JiangYingying/JiangYingying_profile_photo.png"
+  },
+  {"id":4,
+    "name":"WenjingX",
+    "nameToShow":"Wenjing Xiao",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/WenjingX/WenjingX_profile_photo.png"
+  },
+  {"id":4,
     "name":"TangZaiYang",
     "nameToShow":"Zaiyang Tang",
     "brief":"Bachlor Candidate<br>research interests here ",
