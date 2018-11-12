@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS -->
 	<link rel="stylesheet" href="css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
-	<link rel="stylesheet" href="css/people.css">
+	<link rel="stylesheet" href="css/members.css">
 	<!-- //css files -->
 
 
@@ -180,7 +180,7 @@
 							<br>
 							<div class="row team-grids" id="teachers">
 							<!--here we read json-->
-                                hahaha
+
 							</div>
 
 						</div>
@@ -339,16 +339,19 @@
                 success: function (data) {
 
                     $.each(data, function (i, n) {
-
-                        var html ="<div class=\"col-md-3 col-sm-6 w3_agileits-team1\">\n" +
+                            var html ="<div class=\"col-md-3 col-sm-6 w3_agileits-team1\">\n" +
                             "<a class=\"people_img\" href=\"personal_page.html?name="+n.name+"\">\n" +
                             "<img  src=\"personal_information/"+n.name+"/"+n.name+"_profile_photo.png \" alt=\"\">\n" +
                             "</a>\n" +
-                            "<h5 class=\"mt-3\">"+n.nameToShow+"</h5>\n" +
-                            "<p>"+n.brief+"</p>\n" +
-                            "</div>";
+                        "<h5 class=\"mt-3\">"+n.nameToShow+"</h5>\n" +
+                        "<p>"+n.brief+"</p>\n" +
+                        "</div>";
                         // alert(html);
-                         $("#students").append(html);
+                        if(i>1)
+                            {$("#students").append(html);}
+                        else
+                            {$("#teachers").append(html);}
+
 
                     })
                 },

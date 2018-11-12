@@ -1,8 +1,8 @@
 [
-  {"photo":"./personal_information/YuQiao/YuQiao_profile_photo.png",
-    "name":"Qiao Yu",
-    "brief":"Qiao Yu(余乔)<br>Bachelor candidate<br>Embedded and Pervasive Computing (EPIC) Lab<br>School of Computer Science and Technology,<br>Huazhong University of Science and Technology, 1037 Luoyu Road, Wuhan, 430074, China<br>Email: u201517158@hust.edu.cn<br>Mobile: +86-18771920403",
-    "education":"Yu Qiao has been a Bachelor candidate in Software Engineering from HUST, China since 2015.<br>In 2019, she will be a Ph.D candidate at Embedded and Pervasive Computing (EPIC) Lab in School of Computer Science and Technology, HUST.",
+  {"photo":"./personal_information/LongHu/LongHu_profile_photo_round.png",
+    "name":"Long Hu",
+    "brief":"Long Hu(胡龙)<br>Ph.D Candidate<br>Embedded and Pervasive Computing (EPIC) Lab<br>Huazhong University of Science and Technology, 1037 Luoyu Road, Wuhan, 430074, China<br>Email: 1322124231@qq.com,longhu.hust@qq.com<br>Mobile: +86-13349999389",
+    "education":"Long Hu is a Ph.D student in School of Computer Science and Technology at Huazhong University of Science and Technology (HUST). He has also received his Master and B.S. degree in HUST. He is the Publication Chair for 4th International Conference on Cloud Computing (CloudComp 2013). Currently, his research includes 5G Mobile Communication System, Big Data Mining, Marine-Ship Communication, Internet of Things, and Multimedia Transmission over Wireless Network, etc. ",
     "research_interest":"Cognitive computing, software intelligence, Internet of Things, cloud computing and big data analytics, etc.",
     "hobbies":"Reading ,basketball, piano,etc"
   }

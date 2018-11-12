@@ -1,9 +1,15 @@
 [
   {"id":1,
-    "name":"YimingMiao",
-    "nameToShow":"Yiming Miao",
+    "name":"MinChen",
+    "nameToShow":"Min Chen",
     "brief":"PhD Candidate<br>research interests here ",
-    "photo":"./personal_information/YimingMiao/YimingMiao_profile_photo.png"
+    "photo":"./personal_information/MinChen/MinChen_profile_photo.png"
+  },
+  {"id":2,
+    "name":"LongHu",
+    "nameToShow":"Long Hu",
+    "brief":"PhD Candidate<br>research interests here ",
+    "photo":"./personal_information/LongHu/LongHu_profile_photo.png"
   },
   {"id":2,
     "name":"YixueHao",
@@ -11,6 +17,19 @@
     "brief":"Master candidate<br>research interests here ",
     "photo":"./personal_information/YixueHao/YixueHao_profile_photo.png"
   },
+  {"id":3,
+    "name":"JunYang",
+    "nameToShow":"Jun Yang",
+    "brief":"PhD Candidate<br>research interests here ",
+    "photo":"./personal_information/JunYang/JunYang_profile_photo.png"
+  },
+  {"id":1,
+    "name":"YimingMiao",
+    "nameToShow":"Yiming Miao",
+    "brief":"PhD Candidate<br>research interests here ",
+    "photo":"./personal_information/YimingMiao/YimingMiao_profile_photo.png"
+  },
+
   {"id":2,
     "name":"QuRonghui",
     "nameToShow":"Ronghui Qu",
