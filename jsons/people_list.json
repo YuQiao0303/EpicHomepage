@@ -11,6 +11,18 @@
     "brief":"Master candidate<br>research interests here ",
     "photo":"./personal_information/QuRonghui/QuRonghui_profile_photo.png"
   },
+  {"id":4,
+    "name":"WangRui",
+    "nameToShow":"Rui Wang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/WangRui/WangRui_profile_photo.png"
+  },
+  {"id":4,
+    "name":"TangZaiYang",
+    "nameToShow":"Zaiyang Tang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/TangZaiYang/TangZaiYang_profile_photo.png"
+  },
   {"id":2,
     "name":"YitingZhao",
     "nameToShow":"Yiting Zhao",
@@ -28,6 +40,12 @@
     "nameToShow":"Miao Li",
     "brief":"Bachlor Candidate<br>research interests here ",
     "photo":"./personal_information/LiMiao/LiMiao_profile_photo.png"
+  },
+  {"id":4,
+    "name":"TangJingjuan",
+    "nameToShow":"Jingjuan Tang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/TangJingjuan/TangJingjuan_profile_photo.png"
   },
   {"id":3,
     "name":"ShenKe",
