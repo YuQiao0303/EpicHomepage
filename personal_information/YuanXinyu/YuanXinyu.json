@@ -1,0 +1,9 @@
+﻿[
+  {"photo":"./images/person.png",
+    "name":"Yuan Xinyu",
+    "brief":"Yuan Xinyu(袁心玉)<br>Master degree candidate<br>Embedded and Pervasive Computing (EPIC) Lab<br>School of Computer Science and Technology,<br>Huazhong University of Science and Technology, 1037 Luoyu Road, Wuhan, 430074, China<br>Email: xinyuyuan.cs@qq.com<br>Mobile: +86-18428301003",
+    "education":"Yuan Xinyu has been a Bachelor candidate in University of Electronic Science and Technology of China, since 2015.<br>In 2019, she will be a Master degree candidate at Embedded and Pervasive Computing (EPIC) Lab in School of Computer Science and Technology, HUST.",
+    "research_interest":"Software intelligence, deep learning, machine learning, and computer vision, etc.",
+    "hobbies":"Reading ,movie, running,etc"
+  } 
+]
