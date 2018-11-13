@@ -98,7 +98,7 @@ body{
 }
 .profile-img img{
     max-width: 100%;
-    margin-top: 15px;
+    /*margin-top: 10px;*/
     display: block;
 }
 @media screen and (max-width: 2000px){

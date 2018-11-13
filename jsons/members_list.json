@@ -1,0 +1,153 @@
+[
+  {"id":1,
+    "name":"MinChen",
+    "nameToShow":"Min Chen",
+    "brief":"PhD Candidate<br>research interests here ",
+    "photo":"./personal_information/MinChen/MinChen_profile_photo.png"
+  },
+  {"id":2,
+    "name":"LongHu",
+    "nameToShow":"Long Hu",
+    "brief":"PhD Candidate<br>research interests here ",
+    "photo":"./personal_information/LongHu/LongHu_profile_photo.png"
+  },
+  {"id":2,
+    "name":"YixueHao",
+    "nameToShow":"Yixue Hao",
+    "brief":"Master candidate<br>research interests here ",
+    "photo":"./personal_information/YixueHao/YixueHao_profile_photo.png"
+  },
+  {"id":3,
+    "name":"JunYang",
+    "nameToShow":"Jun Yang",
+    "brief":"PhD Candidate<br>research interests here ",
+    "photo":"./personal_information/JunYang/JunYang_profile_photo.png"
+  },
+  {"id":1,
+    "name":"YimingMiao",
+    "nameToShow":"Yiming Miao",
+    "brief":"PhD Candidate<br>research interests here ",
+    "photo":"./personal_information/YimingMiao/YimingMiao_profile_photo.png"
+  },
+
+  {"id":2,
+    "name":"QuRonghui",
+    "nameToShow":"Ronghui Qu",
+    "brief":"Master candidate<br>research interests here ",
+    "photo":"./personal_information/QuRonghui/QuRonghui_profile_photo.png"
+  },
+  {"id":2,
+    "name":"JiayiLu",
+    "nameToShow":"Jiayi Lu",
+    "brief":"Master candidate<br>research interests here ",
+    "photo":"./personal_information/JiayiLu/JiayiLu_profile_photo.png"
+  },
+  {"id":4,
+    "name":"LiWei",
+    "nameToShow":"LiWei",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/LiWei/LiWei_profile_photo.png"
+  },
+  {"id":4,
+    "name":"WangRui",
+    "nameToShow":"Rui Wang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/WangRui/WangRui_profile_photo.png"
+  },
+  {"id":4,
+    "name":"GaoxiangWu",
+    "nameToShow":"Gaoxiang Wu",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/GaoxiangWu/GaoxiangWu_profile_photo.png"
+  },
+  {"id":4,
+    "name":"JiangYingying",
+    "nameToShow":"Y. Jiang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/JiangYingying/JiangYingying_profile_photo.png"
+  },
+  {"id":4,
+    "name":"WenjingX",
+    "nameToShow":"Wenjing Xiao",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/WenjingX/WenjingX_profile_photo.png"
+  },
+  {"id":4,
+    "name":"TangZaiYang",
+    "nameToShow":"Zaiyang Tang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/TangZaiYang/TangZaiYang_profile_photo.png"
+  },
+  {"id":2,
+    "name":"YitingZhao",
+    "nameToShow":"Yiting Zhao",
+    "brief":"Master candidate<br>research interests here ",
+    "photo":"./personal_information/YitingZhao/YitingZhao_profile_photo.png"
+  },
+  {"id":4,
+    "name":"Caoyong",
+    "nameToShow":"Yong Cao",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/Caoyong/Caoyong_profile_photo.png"
+  },
+  {"id":4,
+    "name":"LiMiao",
+    "nameToShow":"Miao Li",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/LiMiao/LiMiao_profile_photo.png"
+  },
+  {"id":4,
+    "name":"TangJingjuan",
+    "nameToShow":"J. Tang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/TangJingjuan/TangJingjuan_profile_photo.png"
+  },
+  {"id":3,
+    "name":"ShenKe",
+    "nameToShow":"Ke Shen",
+    "brief":"Bachlor Candidate<br>research interests here",
+    "photo":"./personal_information/ShenKe/ShenKe_profile_photo.png"
+  },
+  {"id":4,
+    "name":"TangYuan",
+    "nameToShow":"Yuan Tang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/TangYuan/TangYuan_profile_photo.png"
+  },
+  {"id":4,
+    "name":"ZhuangChaoJian",
+    "nameToShow":"C. Zhuang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/ZhuangChaoJian/ZhuangChaoJian_profile_photo.png"
+  },
+  {"id":4,
+    "name":"Longxiaomi",
+    "nameToShow":"Xiaomi Long",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/Longxiaomi/Longxiaomi_profile_photo.png"
+  },
+  {"id":4,
+    "name":"YuanXinyu",
+    "nameToShow":"Xinyu Yuan",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/YuanXinyu/YuanXinyu_profile_photo.png"
+  },
+  {"id":4,
+    "name":"YuQiao",
+    "nameToShow":"Qiao Yu",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/YuQiao/YuQiao_profile_photo.png"
+  },
+  {"id":4,
+    "name":"ZhangXu",
+    "nameToShow":"Xu Zhang",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/ZhangXu/ZhangXu_profile_photo.png"
+  },
+  {"id":4,
+    "name":"LiZiliang",
+    "nameToShow":"Ziliang Li",
+    "brief":"Bachlor Candidate<br>research interests here ",
+    "photo":"./personal_information/LiZiliang/LiZiliang_profile_photo.png"
+  }
+]
