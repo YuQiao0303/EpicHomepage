@@ -1,0 +1,95 @@
+[
+  {"id":3,
+    "name":"ShenKe",
+    "nameToShow":"Ke Shen",
+    "degree":"Master Candidate",
+    "year":2019,
+    "research_interests":"",
+    "photo":"./personal_information/ShenKe/ShenKe_profile_photo.png"
+  },
+
+  {"id":4,
+    "name":"ZhuangChaoJian",
+    "nameToShow":"C. Zhuang",
+    "degree":"Master Candidate",
+    "year":2019,
+    "research_interests":"",
+    "photo":"./personal_information/ZhuangChaoJian/ZhuangChaoJian_profile_photo.png"
+  },
+  {"id":4,
+    "name":"Longxiaomi",
+    "nameToShow":"Xiaomi Long",
+    "degree":"Master Candidate",
+    "year":2019,
+    "research_interests":"",
+    "photo":"./personal_information/Longxiaomi/Longxiaomi_profile_photo.png"
+  },
+  {"id":4,
+    "name":"YuanXinyu",
+    "nameToShow":"Xinyu Yuan",
+    "degree":"Master Candidate",
+    "year":2019,
+    "research_interests":"",
+    "photo":"./personal_information/YuanXinyu/YuanXinyu_profile_photo.png"
+  },
+
+  {"id":4,
+    "name":"ZhangXu",
+    "nameToShow":"Xu Zhang",
+    "degree":"Master Candidate",
+    "year":2019,
+    "research_interests":"",
+    "photo":"./personal_information/ZhangXu/ZhangXu_profile_photo.png"
+  },
+  {"id":4,
+    "name":"LiZiliang",
+    "nameToShow":"Ziliang Li",
+    "degree":"Master Candidate",
+    "year":2019,
+    "research_interests":"",
+    "photo":"./personal_information/LiZiliang/LiZiliang_profile_photo.png"
+  },
+  {"id":2,
+    "name":"QuRonghui",
+    "nameToShow":"Ronghui Qu",
+    "degree":"Master Candidate",
+    "year":2018,
+    "research_interests":"AI Hardware Design, Computer Organization",
+    "photo":"./personal_information/QuRonghui/QuRonghui_profile_photo.png"
+  },
+
+  {"id":4,
+    "name":"WangRui",
+    "nameToShow":"Rui Wang",
+    "degree":"Master Candidate",
+    "year":2018,
+    "research_interests":"Cognitive computing, Internet of Things",
+    "photo":"./personal_information/WangRui/WangRui_profile_photo.png"
+  },
+
+  {"id":4,
+    "name":"TangZaiYang",
+    "nameToShow":"Zaiyang Tang",
+    "degree":"Master Candidate",
+    "year":2018,
+    "research_interests":"Blockchain, Cognitive computing",
+    "photo":"./personal_information/TangZaiYang/TangZaiYang_profile_photo.png"
+  },
+  {"id":2,
+    "name":"YitingZhao",
+    "nameToShow":"Yiting Zhao",
+    "degree":"Master Candidate",
+    "year":2018,
+    "research_interests":"Cognitive computing, software intelligence",
+    "photo":"./personal_information/YitingZhao/YitingZhao_profile_photo.png"
+  },
+  {"id":4,
+    "name":"TangJingjuan",
+    "nameToShow":"J. Tang",
+    "degree":"Master Candidate",
+    "year":2018,
+    "research_interests":"Emotion computing, Recommender systems",
+    "photo":"./personal_information/TangJingjuan/TangJingjuan_profile_photo.png"
+  }
+
+]

@@ -59,7 +59,13 @@
 									<a href="members.html">Teachers</a>
 								</li>
 								<li>
-									<a href="members.html">Students</a>
+									<a href="members.html">Post_docs</a>
+								</li>
+								<li>
+									<a href="members.html">Ph.D Candidates</a>
+								</li>
+								<li>
+									<a href="members.html">Master Candidates</a>
 								</li>
 							</ul>
 						</li>
@@ -149,8 +155,15 @@
 					<a href="#teachers_tab_content" class="active show" id = "teachers_tab" role="tab" data-toggle="tab">Teachers</a>
 				</li>
 				<li role="presentation">
-					<a href="#students_tab_content" id = "students_tab" role="tab" data-toggle="tab">Students</a>
+					<a href="#post_doc_tab_content" id = "post_doc_tab" role="tab" data-toggle="tab">Post_docs</a>
 				</li>
+				<li role="presentation">
+					<a href="#phds_tab_content" id = "phds_tab" role="tab" data-toggle="tab">Ph.D Candidates</a>
+				</li>
+				<li role="presentation">
+					<a href="#masters_tab_content" id = "masters_tab" role="tab" data-toggle="tab">Master Candidates</a>
+				</li>
+
 			</ul>
 		</div>
 
@@ -176,13 +189,30 @@
 
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="students_tab_content">
+			<div role="tabpanel" class="tab-pane" id="post_doc_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+
+						<div class="blog_info">
+							<br>
+							<div class="row team-grids" id="post_doc">
+								<!--here we read json-->
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
+
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="phds_tab_content">
                 <div class="blog-sp">
                     <article class="blog-x">
 
                         <div class="blog_info">
                             <br>
-                            <div class="row team-grids" id="students">
+                            <div class="row team-grids" id="phds">
                                 <!--here we read json-->
                             </div>
 
@@ -192,6 +222,23 @@
                     <br>
 
                 </div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="masters_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+
+						<div class="blog_info">
+							<br>
+							<div class="row team-grids" id="masters">
+								<!--here we read json-->
+							</div>
+
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -311,16 +358,19 @@
 
     $(function () {
 
-        load();
+        loadTeachers();
+        loadPostDocs();
+        loadPhDs();
+        loadMasters();
         getURLParameter(name);
         function getURLParameter(parameter_name) {
             return decodeURIComponent((new RegExp('[?|&]' + parameter_name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
         }
-        function load() {
+        function loadTeachers() {
             // var name = getURLParameter("name");
             $.ajax({
                 type: "get",
-                url: "jsons/members_list.json",
+                url: "jsons/teachers_list.json",
                 dataType: "json",
                 success: function (data) {
 
@@ -330,15 +380,90 @@
                             "<img  src=\"personal_information/"+n.name+"/"+n.name+"_profile_photo.png \" alt=\"\">\n" +
                             "</a>\n" +
                         "<h5 class=\"mt-3\">"+n.nameToShow+"</h5>\n" +
-                        "<p>"+n.brief+"</p>\n" +
+                        "<p>"+n.degree+"</p>\n" +
+                        "<p>"+n.research_interests+"</p>\n" +
                         "</div>";
                         // alert(html);
-                        if(i>1)
-                            {$("#students").append(html);}
-                        else
-                            {$("#teachers").append(html);}
+						$("#teachers").append(html);
+                    })
+                },
+                error: function () {
+                    alert("error");
+                }
+            })
+        }
 
-
+        function loadPostDocs() {
+            // var name = getURLParameter("name");
+            $.ajax({
+                type: "get",
+                url: "jsons/post_docs_list.json",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (i, n) {
+                        var html ="<div class=\"col-md-3 col-sm-6 w3_agileits-team1\">\n" +
+                            "<a class=\"people_img\" href=\"personal_page.html?name="+n.name+"\">\n" +
+                            "<img  src=\"personal_information/"+n.name+"/"+n.name+"_profile_photo.png \" alt=\"\">\n" +
+                            "</a>\n" +
+                            "<h5 class=\"mt-3\">"+n.nameToShow+"</h5>\n" +
+                            "<p>"+n.degree+"</p>\n" +
+                            "<p>"+n.research_interests+"</p>\n" +
+                            "</div>";
+                        // alert(html);
+                        $("#post_doc").append(html);
+                    })
+                },
+                error: function () {
+                    alert("error");
+                }
+            })
+        }
+        function loadPhDs() {
+            // var name = getURLParameter("name");
+            $.ajax({
+                type: "get",
+                url: "jsons/phds_list.json",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (i, n) {
+                        var html ="<div class=\"col-md-3 col-sm-6 w3_agileits-team1\">\n" +
+                            "<a class=\"people_img\" href=\"personal_page.html?name="+n.name+"\">\n" +
+                            "<img  src=\"personal_information/"+n.name+"/"+n.name+"_profile_photo.png \" alt=\"\">\n" +
+                            "</a>\n" +
+                            "<h5 class=\"mt-3\">"+n.nameToShow+"</h5>\n" +
+                            "<p>"+n.degree+  " "+n.year +"</p>\n";
+						if (n.research_interests!="")
+                            	html += "<p>"+n.research_interests+"</p>\n" ;
+                         html +="</div>";
+                        // alert(html);
+                        $("#phds").append(html);
+                    })
+                },
+                error: function () {
+                    alert("error");
+                }
+            })
+        }
+        function loadMasters() {
+            // var name = getURLParameter("name");
+            $.ajax({
+                type: "get",
+                url: "jsons/masters_list.json",
+                dataType: "json",
+                success: function (data) {
+                    $.each(data, function (i, n) {
+                        var html ="<div class=\"col-md-3 col-sm-6 w3_agileits-team1\">\n" +
+                            "<a class=\"people_img\" href=\"personal_page.html?name="+n.name+"\">\n" +
+                            "<img  src=\"personal_information/"+n.name+"/"+n.name+"_profile_photo.png \" alt=\"\">\n" +
+                            "</a>\n" +
+                            "<h5 class=\"mt-3\">"+n.nameToShow+"</h5>\n" +
+                            "<p>"+n.degree+  " "+n.year +"</p>\n";
+                        if (n.research_interests!="")
+                            html += "<p>"+n.research_interests+"</p>\n" ;
+                        html +="</div>";
+                            "</div>";
+                        // alert(html);
+                        $("#masters").append(html);
                     })
                 },
                 error: function () {

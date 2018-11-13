@@ -1,4 +1,4 @@
-﻿<div style="background:#3F51B5; text-align :center;color:white ">智慧衣</div>
+﻿<div style="background:#3F51B5; text-align :center;color:white ;">智慧衣</div>
 
 专利名称：一种心搏监测装置        
        

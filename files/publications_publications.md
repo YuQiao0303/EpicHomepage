@@ -1,4 +1,5 @@
-﻿1 Min Chen, Yujun Ma, Y. Li, D. Wu, Y. Zhang, C. Youn, “Wearable 2.0: Enable Human-Cloud Integration in Next Generation Healthcare System”, IEEE Communications, Vol. 55, No. 1, pp. 54-61, Jan. 2017. （JCR一区期刊，影响因子10.435）[LocalPDF].
+﻿<div style="background:#3F51B5; text-align :center;color:white ">publications in 2017</div>
+1 Min Chen, Yujun Ma, Y. Li, D. Wu, Y. Zhang, C. Youn, “Wearable 2.0: Enable Human-Cloud Integration in Next Generation Healthcare System”, IEEE Communications, Vol. 55, No. 1, pp. 54-61, Jan. 2017. （JCR一区期刊，影响因子10.435）[LocalPDF].
 ___
 2 Min Chen, Ping Zhou, G. Fortino, “Emotion Communication System”, IEEE Access, Vol. 5, pp. 326-337, 2017. （JCR二区期刊，影响因子3.244）[Paper Video: link]
 ___
@@ -52,3 +53,17 @@ ___
 ___
 27 K. Hwang, Min Chen, Big Data Analytics for Cloud/IoT and Cognitive Computing, Wiley, U.K., ISBN: 9781119247029, 2017.
 ___
+<div style="background:#3F51B5; text-align :center;color:white ">Books</div>
+1 Min Chen, “认知计算导论”, 华中科技大学出版社, IBSN: 978-7-5680-2808-0, 2017. [cover]
+___
+2 K. Hwang, Min Chen, Big Data Analytics for Cloud/IoT and Cognitive Computing, Wiley, U.K., ISBN: 9781119247029, 2017. (英文教材，适用于大数据分析，云计算，物联网，机器学习与认知计算领域)
+___
+3 Min Chen, Y. Li, “软件定义5G网络—— 面向智能服务5G移动网络关键技术探索”, 华中科技大学出版社, ISBN 978-7-5609-9510-6, Dec. 2016.
+___
+4 Min Chen, “OPNET物联网仿真”, 华中科技大学出版社, ISBN 978-7-5609-9510-6, April 2015, prepared since 2012, supported by 湖北省社会公益出版基金. M. Chen, “OPNET IoT Simulation”, Huazhong University of Science and Technology Press, ISBN 978-7-5609-9510-6, 2015.[pdf] [link]
+___
+5 Min Chen, D. Zhang, Y. Zhang, K. Qi, “大数据浪潮”, 华中科技大学出版社, ISBN 978-7-5680-1270-6, Oct. 2015. “Big Data Inspiration”, Huazhong University of Science and Technology Press, ISBN 978-7-5680-1270-6, 2015.[pdf]
+___
+6 Y. Zhang, Min Chen, “Cloud Based 5G Wireless Networks”, SpringerBriefs in Computer Science, Springer, ISBN 978-3-319-47343-7, 2016.[link]
+___
+7 Min Chen, S. Mao, Y. Zhang, V. Leung, “Big Data: Related Technologies, Challenges and Future Prospects”, SpringerBriefs in Computer Science, Springer, ISBN 978-3-319-06245-7, 2014. [link] Recommended in 2014 November’s ACM Computing Reviews.[pdf]

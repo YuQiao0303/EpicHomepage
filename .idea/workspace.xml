@@ -2,7 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae8a090-a4b3-4ca1-964b-e3d2386b036f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/files/news_all.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/news_conferences.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/news_universities.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/news_visits.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/projects_goingon.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/UBC – HUST联合实验室意向.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/WenjingX_profile_photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/华中科技大学与国立宜兰大学学术交流协议书.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/台湾国立宜兰大学赵涵捷校长、赖槿峰助理教授来访.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/台湾国立宜兰大学赵涵捷校长、赖槿峰助理教授来访2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/国立宜兰大学校长赵涵捷（左）与陈敏教授（右）.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/美国乔春明教授来访.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/韩国高丽大学Jo教授来访.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsons/masters_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsons/phds_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsons/post_docs_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsons/teachers_list.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/members.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/members.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/international_conferences.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/international_seminars.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/international_universities.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/international_visitors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/lab_director.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/lab_research.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/publications_awards.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/publications_awards.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/publications_patents.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/publications_patents.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/publications_projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/projects_finished.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/publications_publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/publications_publications.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/recruitment_information.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/recruitment_information.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/LiWei_profile_photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/LiWei_profile_photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/WenjingX_profile_photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/WenjingX_profile_photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person.psd" beforeDir="false" afterPath="$PROJECT_DIR$/images/person.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsons/members_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsons/members_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/Caoyong/caoyong_awards.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/Caoyong/caoyong_awards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/Caoyong/caoyong_publications.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/Caoyong/caoyong_publications.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/GaoxiangWu/GaoxiangWu_publications.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/GaoxiangWu/GaoxiangWu_publications.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/JiangYingying/YingyingJiang_awards.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/JiangYingying/JiangYingying_awards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/LiMiao/LiMiao.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/LiMiao/LiMiao.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/LiMiao/LiMiao_awards.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/LiMiao/LiMiao_awards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/LiMiao/LiMiao_publications.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/LiMiao/LiMiao_publications.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/LiWei/LiWei_profile_photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/LiWei/LiWei_profile_photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/LiZiliang/LiZiliang.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/LiZiliang/LiZiliang.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/TangJingjuan/TangJingjuan_publications.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/TangJingjuan/TangJingjuan_publications.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/WenjingX/WenjingX_awards.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/WenjingX/WenjingX_awards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/WenjingX/WenjingX_profile_photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/WenjingX/WenjingX_profile_photo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/WenjingX/WenjingX_publications.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/WenjingX/WenjingX_publications.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/YuanXinyu/YuanXinyu_awards.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/YuanXinyu/YuanXinyu_awards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_information/ZhangXu/ZhangXu_awards.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal_information/ZhangXu/ZhangXu_awards.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment.html" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/video_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/video_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/video_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/video_4.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -103,24 +163,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="json" value="108" />
           <entry key="md" value="61" />
           <entry key="txt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JSON" value="108" />
           <entry key="PLAIN_TEXT" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="9" />
+          <entry key="json" value="4" />
           <entry key="md" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="9" />
+          <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -128,19 +192,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/overview.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="124">
               <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsons/masters_list.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1567" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsons/members_list.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-313" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/personal_information/ZhangXu/ZhangXu_awards.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/personal_information/ZhangXu/ZhangXu.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/智能医疗实验室.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="2052">
               <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -152,8 +244,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/行政办公室.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+            <state relative-caret-position="2033">
+              <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -164,7 +256,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/核心实验室.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="2052">
               <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -174,30 +266,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/publications_projects.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/publications_publications.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/recruitment_information.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/recruitment_training_plan.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/test.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -264,6 +334,7 @@
         <option value="$PROJECT_DIR$/核心实验室.html" />
         <option value="$PROJECT_DIR$/智能医疗实验室.html" />
         <option value="$PROJECT_DIR$/files/overview.md" />
+        <option value="$PROJECT_DIR$/personal_information/ZhangXu/ZhangXu_awards.json" />
       </list>
     </option>
   </component>
@@ -300,7 +371,18 @@
             <path>
               <item name="EpicHomepage_old" type="b2602c69:ProjectViewProjectNode" />
               <item name="EpicHomepage_old" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="jsons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EpicHomepage_old" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EpicHomepage_old" type="462c0819:PsiDirectoryNode" />
+              <item name="personal_information" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EpicHomepage_old" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EpicHomepage_old" type="462c0819:PsiDirectoryNode" />
+              <item name="personal_information" type="462c0819:PsiDirectoryNode" />
+              <item name="ZhangXu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,10 +482,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46165000" />
+    <option name="totallyTimeSpent" value="46853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25972995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -452,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1966">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="19">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -514,9 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/lab_director.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/files/lab_director.md" />
     <entry file="file://$PROJECT_DIR$/overview.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -524,21 +605,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/international_conferences.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/international_seminars.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/international_universities.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/international_visitors.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/files/lab_research.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/files/international_conferences.md" />
+    <entry file="file://$PROJECT_DIR$/files/international_seminars.md" />
+    <entry file="file://$PROJECT_DIR$/files/international_universities.md" />
+    <entry file="file://$PROJECT_DIR$/files/international_visitors.md" />
+    <entry file="file://$PROJECT_DIR$/files/lab_research.md" />
     <entry file="file://$PROJECT_DIR$/files/people.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -548,9 +619,7 @@
     <entry file="file://$PROJECT_DIR$/files/publications_patents.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/publications_projects.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/files/publications_projects.md" />
     <entry file="file://$PROJECT_DIR$/files/publications_publications.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -561,17 +630,15 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/files/test.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/files/最新动态.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/行政办公室.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        <state relative-caret-position="2033">
+          <caret line="107" column="9" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -580,7 +647,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/核心实验室.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="2052">
           <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -590,7 +657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/智能医疗实验室.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="2052">
           <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -600,8 +667,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/files/overview.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="124">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsons/masters_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1567" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsons/members_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal_information/ZhangXu/ZhangXu.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal_information/ZhangXu/ZhangXu_awards.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
         </state>
       </provider>
     </entry>
