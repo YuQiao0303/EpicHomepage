@@ -12,18 +12,5 @@
     "degree":"Lecturer",
     "research_interests":"5G Wireless Networks<br>SDN",
     "photo":"./personal_information/LongHu/LongHu_profile_photo.png"
-  },
-  {"id":2,
-    "name":"YixueHao",
-    "nameToShow":"Yixue Hao",
-    "degree":"Post_docs",
-    "research_interests":"Emotion-aware Computing",
-    "photo":"./personal_information/YixueHao/YixueHao_profile_photo.png"
-  },
-  {"id":3,
-    "name":"JunYang",
-    "degree":"Post_docs",
-    "research_interests":"Robotics<br>IoT Sensing",
-    "photo":"./personal_information/JunYang/JunYang_profile_photo.png"
   }
 ]
