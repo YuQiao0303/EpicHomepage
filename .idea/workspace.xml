@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae8a090-a4b3-4ca1-964b-e3d2386b036f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/international_conferences.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/news_conferences.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/international_seminars.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/news_universities.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/international_universities.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/news_all.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/international_visitors.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/news_visits.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/publications_awards.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/publications_awards.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/publications_patents.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/publications_patents.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/publications_projects.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/publications_publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/publications_publications.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/recruitment_information.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/recruitment_information.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/news_universities.md" beforeDir="false" afterPath="$PROJECT_DIR$/files/news_universities.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -169,8 +157,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/files/news_universities.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -393,7 +381,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50794000" />
+    <option name="totallyTimeSpent" value="51108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -721,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/files/news_universities.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
