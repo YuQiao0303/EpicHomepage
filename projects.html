@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Publications</title>
+	<title>Projects</title>
 
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -151,17 +151,11 @@
 		<!-- 导航区 -->
 		<div class="mytab">
 			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" >
-					<a href="#home_tab_content" class="active show" id = "home_tab" role="tab" data-toggle="tab">Awards</a>
+				<li role="presentation">
+					<a href="#projects_finished_tab_content" class="active show" id = "projects_finished_tab" role="tab" data-toggle="tab">Projects finished</a>
 				</li>
 				<li role="presentation">
-					<a href="#publications_tab_content" id = "publications_tab" role="tab" data-toggle="tab">Publications</a>
-				</li>
-				<li role="presentation">
-					<a href="#patents_tab_content" id = "patents_tab" role="tab" data-toggle="tab">Patents</a>
-				</li>
-				<li role="presentation">
-					<a href="#projects_tab_content" id = "projects_tab" role="tab" data-toggle="tab">Projects</a>
+					<a href="#projects_goingon_tab_content"  id = "projects_goingon_tab" role="tab" data-toggle="tab">Projects going on</a>
 				</li>
 			</ul>
 		</div>
@@ -170,7 +164,7 @@
 		<div class="tab-content">
 
 			<!--publication content-->
-			<div role="tabpanel" class="tab-pane active" id="home_tab_content">
+			<div role="tabpanel" class="tab-pane active" id="projects_finished_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
 						<!--<div class="blog-img">-->
@@ -180,11 +174,11 @@
 						<!--</div>-->
 						<div class="blog_info">
 							<h5>
-								Awards
+								Projects finished
 							</h5>
 
 							<br>
-							<div id="publications_awards"></div>
+							<div id="projects_finished"></div>
 
 						</div>
 						<div class="clearfix"></div>
@@ -193,7 +187,7 @@
 
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="publications_tab_content">
+			<div role="tabpanel" class="tab-pane" id="projects_goingon_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
 						<!--<div class="blog-img">-->
@@ -203,58 +197,11 @@
 						<!--</div>-->
 						<div class="blog_info">
 							<h5>
-								Publications
+								Projects going on
 							</h5>
 
 							<br>
-							<div id="publications_publications"></div>
-
-						</div>
-						<div class="clearfix"></div>
-					</article>
-					<br>
-
-				</div>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="patents_tab_content">
-				<div class="blog-sp">
-					<article class="blog-x">
-						<!--<div class="blog-img">-->
-						<!--<a href="single.html">-->
-						<!--<img src="" alt="" class="img-fluid" />-->
-						<!--</a>-->
-						<!--</div>-->
-						<div class="blog_info">
-							<h5>
-								Patents
-							</h5>
-
-							<br>
-							<div id="publications_patents"></div>
-
-
-						</div>
-						<div class="clearfix"></div>
-					</article>
-					<br>
-
-				</div>
-			</div>
-			<div role="tabpanel" class="tab-pane" id="projects_tab_content">
-				<div class="blog-sp">
-					<article class="blog-x">
-						<!--<div class="blog-img">-->
-						<!--<a href="single.html">-->
-						<!--<img src="" alt="" class="img-fluid" />-->
-						<!--</a>-->
-						<!--</div>-->
-						<div class="blog_info">
-							<h5>
-								Projects
-							</h5>
-
-							<br>
-							<div id="publications_projects"></div>
+							<div id="projects_goingon"></div>
 
 						</div>
 						<div class="clearfix"></div>
@@ -325,10 +272,9 @@
 
 <script type="text/javascript">
     function load() {
-        readMd("publications_awards.md", "publications_awards");
-        readMd("publications_publications.md", "publications_publications");
-        readMd("publications_patents.md", "publications_patents");
-        readMd("publications_projects.md", "publications_projects");
+
+        readMd("projects_finished.md", "projects_finished");
+        readMd("projects_goingon.md", "projects_goingon");
         function readMd(filePath, classId) {
             var xhr = new XMLHttpRequest();
             xhr.open('get','files/'+filePath,true);
