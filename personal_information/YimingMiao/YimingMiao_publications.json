@@ -1,0 +1,62 @@
+[
+  {"id":1,
+    "content":"<strong>Yiming Miao</strong>, W. Li, D. Tian, M. S. Hossain, M. F. Alhamid, \"Narrow Band Internet of Things: Simulation and Modelling\", IEEE IoT Journal, Vol. 5, No. 4, pp. 2304-2314, 2018."
+  },
+  {"id":2,
+    "content":"M. Chen, <strong>Yiming Miao</strong>, X. Jian, X. Wang, I. Humar, \"Cognitive-LPWAN: Towards Intelligent Wireless Services in Hybrid Low Power Wide Area Networks\", IEEE Transactions on Green Communications and Networking, DOI: 10.1109/TGCN.2018.2873783, 2018."
+  },
+  {"id":3,
+    "content":"M. Chen, <strong>Yiming Miao</strong>, Y. Hao, K. Hwang, \"Narrow Band Internet of Things\", IEEE Access, Vol. 5, pp. 20557-20577, 2017."
+  },
+  {"id":4,
+    "content":"<strong>Yiming Miao</strong>, Y. Tian, L. Peng, M. Hossain, G. Muhammad, \"Research and Implementation of ECG-based Biological Recognition Parallelizatio\", IEEE Access, Vol. 6, pp. 4759-4766, 2018."
+  },
+  {"id":5,
+    "content":"<strong>Yiming Miao</strong>, G. Wu, C. Liu, M. Hossain, G. Muhammad, \"Green Cognitive Body Sensor Network: Architecture, Energy Harvesting, and Smart Clothing-Based Applications\", IEEE Sensors, DOI:10.1109/JSEN.2018.2870251, 2018."
+  },
+  {"id":6,
+    "content":"<strong>Yiming Miao</strong>, Y. Jiang, L. Peng, M. Hossain, G. Muhammad, \"Telesurgery Robot Based on 5G Tactile Internet\", ACM/Springer Mobile Networks and Applications, DOI:10.1007/s11036-018-1110-3, 2018."
+  },
+  {"id":7,
+    "content":"<strong>Yiming Miao</strong>, Y. Tian, J. Cheng, M. Hossain, A. Ghoneim, \"RADB: Random Access with Differentiated Barring for Latency-Constrained Applications in NB-IoT Network\", Wireless Communications and Mobile Computing, Vol.3, pp. 1-9, 2018."
+  },
+  {"id":8,
+    "content":"Y. Qian, J. Lu, <strong>Yiming Miao</strong>, W. Ji, R. Jin, E. Song, \"AIEM: AI-enabled Affective Experience Management\", Future Generation Computer Systems, Vol. 89, pp. 438-445, 2018."
+  },
+  {"id":9,
+    "content":"L. Hu, <strong>Yiming Miao</strong> (corresponding author), G. Wu, M. Hassan, I. Humar, \"iRobot-Factory: An Intelligent Robot Factory based on Cognitive Manufacturing and Edge Computing\", Future Generation Computer Systems, Vol. 90, pp. 569-577, 2019."
+  },
+  {"id":10,
+    "content":"Y. Hao, <strong>Yiming Miao</strong>, L. Hu, M. Hossain, G. Muhammad, \"Smart-Edge-CoCaCo: AI-Enabled Smart Edge with Joint Computation, Caching, and Communication in Heterogeneous IoT\", IEEE Network, under revision, 2018."
+  },
+  {"id":11,
+    "content":"J. Song, <strong>Yiming Miao</strong>, E. Song, M. Hossain, M. Alhamid, \"Reliability-Aware Cooperative Node Sleeping and Clustering in Duty-Cycled Sensors Networks\", Sensors, Vol. 18, No. 1, Article ID: 127, 2018."
+  },
+  {"id":12,
+    "content":"J. Wang, <strong>Yiming Miao</strong>, P. Zhou, M. Hossain, S. Rahman, \"A Software Defined Network Routing in Wireless Multihop Network\", Journal of Network and Computer Applications, Vol. 85, pp. 76-83, 2017."
+  },
+  {"id":13,
+    "content":"B. Li, L. Peng, Y. Hao, <strong>Yiming Miao</strong> (corresponding author), M. Hassan, \"Energy-Efficient Multiperiod Planning of Optical Core Network to Support 5G Networks\", Transactions on Emerging Telecommunications Technologies, Vol. 28, No. 9, 2017. DOI: 10.1002/ett.3147"
+  },
+  {"id":14,
+    "content":"Ping Zhou, Y. Hao,J. Yang, W. Li, L. Wang, <strong>Yiming Miao</strong>, J. Song, \"Cloud-assisted Hugtive Robot for Affective Interaction\", Multimedia Tools and Applications, Vol. 76, No. 8, pp. 10839–10854, 2017."
+  },
+  {"id":15,
+    "content":"Y. Ma, Y. Wang, J. Yang, <strong>Yiming Miao</strong>, W. Li ,“Big Health Application System based on Health Internet of Things and Big Data”, IEEE Access, Vol. 5, No. 99, pp.7885-7897, 2017."
+  },
+  {"id":16,
+    "content":"W. Li, J. Lu, Y. Xu, Z. Wei, Y. Tian, <strong>Yiming Miao</strong> (corresponding author), \"Wireless Cooperative Caching in Device-to-Device Networks: Simulation and Modeling\", 12th EAI International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities (TRIDENTCOM 2017), Dalian, China, Sept. 2017. (<strong>Best Student Paper Award</strong>)"
+  },
+  {"id":17,
+    "content":"J. Yang, <strong>Yiming Miao</strong>, C. Han, Y. Tian, X. You, Y. Jiang, \"OPPOCO: From Ad Hoc Cloudlet-assisted Edge Computation to Opportunistic Computation Offoading\", 12th EAI International Conference on Testbeds and Research Infrastructures for the Development of Networks & Communities (TRIDENTCOM 2017), Dalian, China, Sept. 2017."
+  },
+  {"id":18,
+    "content":"M. Liu, K. Lin, J. Yang, D. Xiao, <strong>Yiming Miao</strong>, L. Wang, W. Li, Z. Wei, J. Lu \"Mobile Cloud Platform: Architecture, Deployment and Big Data Applications\", Cloudcomp 2016, Guangzhou, China, Nov. 2016. (<strong>Best Student Paper Award</strong>)"
+  },
+  {"id":19,
+    "content":"<strong>Yiming Miao</strong>, \"Data Multi-hop Algorithm for Wireless Sensor Networks based on LEACH Protocol\", International Conference on Electrical and Control Engineering 2015, Guilin, April 18-19 2015."
+  },
+  {"id":20,
+    "content":"<strong>Yiming Miao</strong>, \"Cluster-head Election Algorithm for Wireless Sensor Networks based on LEACH Protocol\", International Conference on Sensors, Measurement and Intelligent Materials 2014, Zhuhai, November 25-26, 2014."
+  }
+]

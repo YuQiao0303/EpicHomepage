@@ -4,6 +4,15 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+/*-- mumber photos --*/
+.w3_agileits-team1 img {
+    /*max-width: 80%;*/
+    /*margin-left: 10%;*/
+    background: url("../images/person_background.png");   /*edit background color of the photo*/
+}
+.w3_agileits-team1  {
+    padding-right:6%;
+}
 /*-- Chinese font --*/
 @font-face{
     font-family: 'chinese-font';
@@ -258,9 +267,9 @@ ul{
 label{
 	margin:0;
 }
-img{
+/* img{
 	width:100%;
-}
+} */
 
 
 /*-- banner --*/
@@ -659,7 +668,7 @@ ul.blog_list li a {
 .blog_info {
     padding: 2em;
     border: 3px solid #f5f5f5;
-    white-space:pre-line;/*edit*/
+    /*white-space:pre-line;!*edit*!*/
     width:100%;
     /*margin-bottom: 5%;*/
 }
@@ -1449,7 +1458,7 @@ h5.mt-0 {
 
 /*-- clients --*/
 .clients-main{
-	background: url(../images/1.jpg) no-repeat center;
+	/*-- background: url(../images/achievement01.jpg) no-repeat center;--*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1457,7 +1466,8 @@ h5.mt-0 {
     -ms-background-size: cover;
 }
 .wthree-different-dot1 {
-    background: rgba(37, 37, 37, 0.54);
+    /*background: rgba(37, 37, 37, 0.54);*/
+    background-color: #333;
 }
 .clients-main h3.heading {
     color: #fff;
@@ -1549,10 +1559,10 @@ p.para-w3-agile {
 }
 .flexslider .slides img {
     display: inline-block;
-    width: 120px;
-    height: 120px;
-    border: 4px solid #fff;
-	border-radius: 50%;
+    width: 440px;
+    height: 294px;
+    /* border: 4px solid #fff;
+	border-radius: 50%;  */
 }
 .g1 p span.fa {
 	font-size: 1.8em;
@@ -1594,12 +1604,11 @@ p.para-w3-agile {
 .news-grids a {
     font-size: 15px;
     font-weight: bold;
-    letter-spacing: 2px;
-    border: 1px solid #333;
     padding: 10px 25px;
-    color: #333;
+    color: #3F51B5;
     display: inline-block;
     margin-top: 1em;
+    text-transform:uppercase;
 }
 .news-grids a:hover,.card-body a.btn:hover{
     background: #3F51B5;
