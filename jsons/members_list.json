@@ -62,7 +62,7 @@
   },
   {"id":4,
     "name":"JiangYingying",
-    "nameToShow":"Yingying Jiang",
+    "nameToShow":"Y. Jiang",
     "brief":"Bachlor Candidate<br>research interests here ",
     "photo":"./personal_information/JiangYingying/JiangYingying_profile_photo.png"
   },
@@ -98,7 +98,7 @@
   },
   {"id":4,
     "name":"TangJingjuan",
-    "nameToShow":"Jingjuan Tang",
+    "nameToShow":"J. Tang",
     "brief":"Bachlor Candidate<br>research interests here ",
     "photo":"./personal_information/TangJingjuan/TangJingjuan_profile_photo.png"
   },
@@ -116,7 +116,7 @@
   },
   {"id":4,
     "name":"ZhuangChaoJian",
-    "nameToShow":"Chaojian Zhuang",
+    "nameToShow":"C. Zhuang",
     "brief":"Bachlor Candidate<br>research interests here ",
     "photo":"./personal_information/ZhuangChaoJian/ZhuangChaoJian_profile_photo.png"
   },
