@@ -6,15 +6,22 @@ ___
 <p>核心实验室</p>
 <p>地址:湖北省武汉市洪山区珞瑜路华中科技大学南一楼西216</p>
 </div>
+<div style="text-align :center;margin：0 auto">
+<iframe style="margin-left: 25%;"src='核心实验室.html'></iframe>
+</div>
 ___
 
 <div style="text-align :center">
 <p>智能医疗装备实验室</p>
 <p>地址:湖北省武汉市洪山区珞瑜路华中科技大学东校区医学图像信息研究中心</p>
 </div>
-<div style="text-align :center;margin：0 auto">
-<iframe height=498 width=510 src='智能医疗实验室.html'></iframe>
+<div style="text-align: center; margin-right: auto; margin-left: auto;">
+<iframe scrolling="no"  style="margin-left: 25%;" src='智能医疗实验室.html'></iframe>
 </div>
+
 ___
 <div style="text-align :center"><p>行政办公室</p> </div>
 <div style="text-align :center"><p>地址:湖北省武汉市洪山区珞瑜路华中科技大学南一楼410</p> </div>
+<div style="text-align :center;margin：0 auto">
+<iframe style="margin-left: 25%;" src='行政办公室.html'></iframe>
+</div>
