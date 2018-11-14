@@ -291,9 +291,9 @@ h1{
     margin-right: 1.5em;
 }
 .dropdown-menu a {
-    font-size: 17px;
+    /*font-size: 17px;*/
     font-weight: 700;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
     padding: 10px;
 	color: #333;
 }
