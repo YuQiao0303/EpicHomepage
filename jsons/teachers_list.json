@@ -4,13 +4,15 @@
     "nameToShow":"Min Chen",
     "degree":"Professor",
     "research_interests":"cognitive computing<br>5G Networks",
-    "photo":"./personal_information/MinChen/MinChen_profile_photo.png"
+    "photo":"./personal_information/MinChen/MinChen_profile_photo.png",
+    "url":"minchen.html"
   },
   {"id":2,
     "name":"LongHu",
     "nameToShow":"Long Hu",
     "degree":"Lecturer",
     "research_interests":"5G Wireless Networks<br>SDN",
-    "photo":"./personal_information/LongHu/LongHu_profile_photo.png"
+    "photo":"./personal_information/LongHu/LongHu_profile_photo.png",
+    "url":"personal_page2.html?name=LongHu"
   }
 ]

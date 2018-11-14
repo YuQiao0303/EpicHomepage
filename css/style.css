@@ -1458,7 +1458,7 @@ h5.mt-0 {
 
 /*-- clients --*/
 .clients-main{
-	/*-- background: url(../images/achievement01.jpg) no-repeat center;--*/
+	background: url(../images/banner_dark.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1466,8 +1466,8 @@ h5.mt-0 {
     -ms-background-size: cover;
 }
 .wthree-different-dot1 {
-    /*background: rgba(37, 37, 37, 0.54);*/
-    background-color: #333;
+    background: rgba(37, 37, 37, 0.54);
+    /*background-color: #333;*/
 }
 .clients-main h3.heading {
     color: #fff;

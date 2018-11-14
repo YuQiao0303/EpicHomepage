@@ -159,6 +159,9 @@
 					<li role="presentation">
 						<a href="#awards_tab_content" id = "awards_tab" role="tab" data-toggle="tab">Awards</a>
 					</li>
+					<li role="presentation">
+						<a href="#other_tab_content" id = "other_tab" role="tab" data-toggle="tab">Other</a>
+					</li>
 				</ul>
 			</div>
 
@@ -242,6 +245,11 @@
 							</div>
 							<br>
 							<div class="blog_info">
+								<h5>Other</h5>
+								<p id="other"></p>
+							</div>
+							<br>
+							<div class="blog_info">
 								<h5>Hobbies</h5>
 								<!--<img src="" class="img-fluid" alt="">-->
 								<p id="hobbies"></p>
@@ -304,6 +312,30 @@
 
                     </div>
                 </div>
+				<div role="tabpanel" class="tab-pane" id="other_tab_content">
+					<div class="blog-sp">
+						<article class="blog-x">
+							<!--<div class="blog-img">-->
+							<!--<a href="single.html">-->
+							<!--<img src="" alt="" class="img-fluid" />-->
+							<!--</a>-->
+							<!--</div>-->
+							<div class="blog_info">
+								<h5>
+									Other
+								</h5>
+
+								<br>
+								<div  id="other2">
+
+								</div>
+
+							</div>
+							<div class="clearfix"></div>
+						</article>
+						<br>
+					</div>
+				</div>
             </div>
 		</div>
 
@@ -357,7 +389,7 @@
 	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
 	<!-- //js -->
-	
+	<script type="text/javascript" src="js/showdown.js"></script>
 	<!-- start-smoth-scrolling -->
 	<script src="js/SmoothScroll.min.js"></script>
 	<script type="text/javascript" src="js/move-top.js"></script>
@@ -404,6 +436,7 @@
         load();
         load_publications();
         load_awards();
+        load_other();
         getURLParameter(name);
         function getURLParameter(parameter_name) {
             return decodeURIComponent((new RegExp('[?|&]' + parameter_name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
@@ -455,7 +488,7 @@
                         publications_html+=n.content;
                         publications_html+="</td></tr>"
                         $("#publications2").append(publications_html);
-                        if(i<6){$("#publications").append(publications_html);}
+                        if(i<10){$("#publications").append(publications_html);}
                     })
                     if(publications_html==""){
                         publications_html+="<tr style = \"border: 0;\"><td >No publications yet.</td><tr></tr>";
@@ -475,8 +508,6 @@
                 dataType: "json",
                 success: function (data) {
                     $.each(data, function (i, n) {
-
-
                         var html_photo ="<img src=\"";
                         html_photo += n.photo;
                         html_photo += "\" alt=\"img\">";
@@ -496,8 +527,32 @@
                     })
                 },
                 error: function () {
+                    alert("read name.json error!");
                 }
             })
+        }
+        function load_other() {
+            var name = getURLParameter("name");
+            var url = "personal_information/"+name+"/"+name+"_other.md";
+			readMd(url, "other");
+            readMd(url, "other2");
+            function readMd(filePath, classId) {
+                var xhr = new XMLHttpRequest();
+                xhr.open('get',filePath,true);
+                xhr.send();
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200){
+                        var converter = new showdown.Converter();
+                        //进行转换
+                        var htmls = converter.makeHtml(xhr.responseText);
+                        //展示到对应的地方  result便是id名称
+                        document.getElementById(classId).innerHTML = htmls;
+                    }
+                    else {
+
+                    }
+                };
+            }
         }
     })
     // $.parser.parse();
