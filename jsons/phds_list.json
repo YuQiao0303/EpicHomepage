@@ -74,10 +74,18 @@
   },
   {"id":4,
     "name":"LiWei",
-    "nameToShow":"LiWei",
+    "nameToShow":"Wei Li",
     "degree":"Ph.D Candidate",
     "year":2015,
     "research_interests":"Pervasive Computing&<br> The Internet of things",
     "photo":"./personal_information/LiWei/LiWei_profile_photo.png"
+  },
+  {"id":4,
+    "name":"ZhouPing",
+    "nameToShow":"Ping Zhou",
+    "degree":"Ph.D Candidate",
+    "year":2015,
+    "research_interests":"emotion cognition & interaction",
+    "photo":"./personal_information/ZhouPing/ZhouPing_profile_photo.png"
   }
 ]
