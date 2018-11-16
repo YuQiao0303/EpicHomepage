@@ -741,6 +741,7 @@ ul.blog_list li a {
     color: #4b4d4f;
     margin: 2em 0;    /*edit 段落边缘空白*/
     /*line-height: 28px;*/
+    white-space: pre-line;
     font-weight: 600;
     letter-spacing: 1px;
 }
