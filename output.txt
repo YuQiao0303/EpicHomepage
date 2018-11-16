@@ -1,0 +1,253 @@
+<table class="table14_3">
+        <tbody><tr>
+          <td ><span ><span >Paper Award &amp; Citation</span></span></td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td><span >Highly Cited Researcher (computer science) @ 2018 </span><span > </span>[<a href="min_paper/ESI-Highly-Cited-Researchers-MinChen.pdf">pdf</a>] (will be formally annouced at Nov. 2018), <a href="min_paper/2017-ESI-Highly-Cited-Researcher-Computer-Science.xlsx">complete list @ 2017</a> (<span >152 in computer science category globally,</span> <span >17 in Mainland China</span> ) </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>X . Wang, <strong>Min Chen</strong> (通信作者), et al., “Cache In The Air: Enabling the Green Multimedia Caching and Delivery for the 5G Network”, IEEE Communications Magazine, Vol. 52, No. 2, pp. 131-139, Feb. 2014. <span >荣获 2017 年度 IEEE Communications Society （通信学会） Fred W. Ellersick Prize 。该奖颁发给 IEEE 通信学会旗下所有期刊在前三年中的最佳原创性研究论文. 该奖设立25年以来首次颁发以中国为主的研究团队 [<a href="min_doc/Fred-W-EllersickPrize-MinCHEN.jpg">jpg</a>] [<a href="min_doc/IEEE-FredW-EllersickPrize.jpg">link</a>]</span></td>
+        </tr>
+        <tr>
+          <td >3</td>
+          <td><strong>Min Chen</strong>, "AIWAC: Affective Interaction through Wide-learning and Cognitive Computing", <span >2018光谷青桐年汇创业大赛,</span><span > Rank 1st among 15 projects</span> <span >[<a href="min_doc/2018-AIWAC-Project-Rank-1st-MinCHEN.pdf">jpg</a>]</span></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><strong>Min Chen</strong>,  "5G移动通信关键技术研究丛书"，<span >入选全省“20种优秀图书”，</span><span >湖北省新闻出版总局</span></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td> <strong>Min Chen</strong>, et al., "Directional Geographical Routing for Real-Time Video Communications in Wireless Sensor Networks", <em>Computer Communications</em>, Vol. 30, No. 17, pp.3368–3383, Nov. 2007.<span > Selected on the list of the most influential COMCOM papers published in the past 40 years. </span>[<a href="min_paper/COMCOM-40years-VSI2018.pdf">pdf</a>] </td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><span >2014年中国高被引学者</span>[<a href="http://china.elsevier.com/elsevierdnn/ch/%E4%B8%BB%E9%A1%B5/2014%E5%B9%B4%E4%B8%AD%E5%9B%BD%E9%AB%98%E8%A2%AB%E5%BC%95%E5%AD%A6%E8%80%85%E6%A6%9C%E5%8D%95%E5%8F%91%E5%B8%83/tabid/2676/Default.aspx">link</a>]，计算机科学类 [<a href="min_doc/ComputerScience.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>L. Zhou, Min Chen, B. Zheng, J. Wu, "Green Multimedia Communications over Internet of Things", <em>IEEE International Conference on Communications </em>(ICC'12), Ottawa, Canada, June 10-15, 2012. (<span >Best Paper Award</span>) [<a href="min_paper/ICC2012-BPA.pdf">pdf</a>] </td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td> <strong>Min Chen</strong>, et al., "M-Plan: Multipath Planning based Transmissions for IoT Multimedia Sensing", IEEE IWCMC, Cyprus, Sep. 2016. (<span >Best Paper Award<span >)</span></span></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td> <strong>Min Chen</strong>, et al., "CP-Robot: Cloud-assisted Pillow Robot for Emotion Sensing and Interaction", Industrialiot 2016, Guangzhou, China, Mar. 2016.  (<span >Best Paper Award<span >)</span></span></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td ><div ><strong>Min Chen</strong>, V. Leung and S. Mao, "Directed Controlled Fusion in Wireless Sensor Networks", <em>ICST QShine'08, </em>HongKong, Sep. 28-31th, 2008. (<span >Best Paper Award</span> - runner up) </div></td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td><span ><em>Popular Content</em> of this publication, as of Jan 30, 2015 [<a href="min_doc/MONET-popular-content-Jan30-2015.pdf">pdf</a>]</span> <strong>Min Chen</strong>, S. Mao, Y. Liu, "Big Data: A Survey", <em>ACM/Springer Mobile Networks and Applications</em>, Vol. 19, No. 2, pp. 171-209, April 2014. </td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td><span >ESI Hot Paper</span>: 
+
+
+          <strong>Min Chen</strong>, "NDNC-BAN: Supporting Rich Media Healthcare Services via Named Data Networking in Cloud-assisted Wireless Body Area Networks", <em>Information Sciences</em>, Vol. 284, No. 10, pp. 142-156, Nov. 2014 </td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td><span >ESI Hot Paper</span>: <strong>Min Chen</strong>, et al. AIWAC: Affective Interaction through WearAble Computing and Cloud Technology",<em> IEEE Wireless Communications Magazine</em>, Vol. 22, No. 1, pp. 20-27, Feb. 2015. [<a href="min_doc/Hot-Paper-AIWAC-MinCHEN.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td><span >ESI Highly Cited Paper</span>: "A Survey of Green Mobile Networks: Opportunities and Challenges", ACM/Springer Mobile Networks and Applications, Vol. 17, No. 1, pp. 4-20, Feb. 2012. [<a href="min_doc/Highly-Cited-Paper-GreenMobileNetwork.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td><span >ESI Highly Cited Paper</span>: "Rethinking energy efficiency models of cellular networks with embodied energy", IEEE Network, Vol. 25, No. 2, pp. 40-49, 2011.</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td><span >ESI Highly Cited Paper</span>: X. Wang, <strong>Min Chen</strong> (corresponding author), et al., "Cache In The Air: Enabling the Green Multimedia Caching and Delivery for the 5G Network", <em>IEEE Communications Magazine</em><span  ><span >, Vol. 52, No. 2, pp. 131-139, Feb. 2014.</span></span> [<a href="min_doc/Highly-Cited-Paper-5G-Cache-MinCHEN.pdf">pdf</a>] </td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, et al. "Big Data: A Survey", <em>ACM/Springer Mobile Networks and Applications</em>, 
+
+
+ Vol. 19, No. 2, pp. 171-209, April 2014. [<a href="min_doc/HighlyCited-(BigData)-MinCHEN.pdf">pdf</a>] </td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td> <span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, J. Wan, S. Gonzalez, X. Liao, V. Leung, "A Survey of Recent Developments in Home M2M Networks," <em>IEEE Communications Surveys and Tutorials</em>, Vol. 16, No. 1, pp. 98-114, Feb. 2014. [<a href="min_doc/HighlyCited-M2M-MinCHEN.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, 
+
+
+  Y. Hao, Y. Li, C. Lai, D. Wu, "On The Computation Offloading at Ad Hoc Cloudlet: Architecture and Service Models", <em>IEEE Communications</em>, Vol. 53, No. 6, pp. 18-24, June 2015. </td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>,  Y. Zhang, Y. Li, S. Mao, V. Leung, "EMC: Emotion-aware Mobile Cloud Computing in 5G", <em>IEEE Network</em>, Vol. 29, No. 2, pp. 32-38, Mar. 2015. </td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, et al.
+
+
+ AIWAC: Affective Interaction through WearAble Computing and Cloud Technology",<em> IEEE Wireless Communications Magazine</em>, Vol. 22, No. 1, pp. 20-27, Feb. 2015. </td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td><span >ESI Highly Cited Paper</span>: 
+
+ 
+"Energy-Efficiency Optimization for MIMO-OFDM Mobile Multimedia Communications Systems with QoS Constraints", IEEE Transactions on Vehicular Technology, Vol. 63, No. 5, pp. 2127-2138, 2014. </td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, et al. "Body Area Networks: A Survey", <em>ACM/Springer Mobile Networks and Applications</em>, Vol. 16, No. 2, pp. 171-193, April 2011. [<a href="min_doc/Highly-Cited-Paper-MinCHEN.pdf">pdf</a>] </td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td> <span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, et al. "Cloud-based Wireless Network: Virtualized, Reconfigurable, Smart Wireless Network to Enable 5G Technologies", ACM/Springer Mobile Networks and Applications , Vol. 20, No. 6, pp. 704-712, Dec. 2015. </td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, et al. "Software-Defined Mobile Networks Security", ACM/Springer Mobile Networks and Applications , Vol. 21, No. 5, pp. 729–743, 2016.</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td><span >ESI Highly Hot Paper</span>: Y. Zhang, <strong>Min Chen</strong> (通信作者), D. Huang, D. Wu, Y. Li, "iDoctor: Personalized and Professionalized Medical Recommendations Based on Hybrid Matrix Factorization", Future Generation Computer Systems , Vol. 66, pp. 30-35, Jan. 2017. </td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td><span >ESI Highly Cited Paper</span>: Y. Zhang,  <strong>Min Chen</strong>, S. Mao, L. Hu, V. Leung, "CAP: Crowd Activity Prediction Based on Big Data Analysis", IEEE Network, Vol. 28, No. 4, pp. 52-57, July 2014 . </td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td><span >2015年中国高被引学者</span>[<a href="http://china.elsevier.com/ElsevierDNN/2015%E5%B9%B4%E4%B8%AD%E5%9B%BD%E9%AB%98%E8%A2%AB%E5%BC%95%E5%AD%A6%E8%80%85%E6%A6%9C%E5%8D%95%E5%8F%91%E5%B8%83/13%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/tabid/2896/Default.aspx">link</a>]，计算机科学类</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>"绿色无线通信与网络基础理论与方法", <span >2015年中国通信学会自然科学技术二等奖</span>, 2016. (第二完成人) </td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td><span >"A Survey on Internet of Things From Industrial Market Perspective", <em>IEEE Access</em>, Vol. 2, pp. 1660-1679, 2014.</span> <span >Among the most popular paper in IEEExplore</span> [<a href="min_doc/IEEE-Access-2015-IEEExplore-Popular.pdf">link</a>] </td>
+        </tr>
+        <tr>
+          <td>31</td>
+          <td><strong>Min Chen</strong>, et al., "Disease Prediction by Machine Learning over Big Healthcare Data",<em> IEEE Access</em>, Vol. 5, No. 1, pp. 8869-8879, 2017. <span >Among the most popular paper in IEEExplore</span> [<a href="min_doc/IEEE-Access-DiseasePrediction-2017-IEEExplore-Popular.pdf">link</a>] </td>
+        </tr>
+        <tr>
+          <td>32</td>
+          <td> 第一作者论文[IEEE Communications Surveys and Tutorials 16(1) 2014, IF:17.188] 获湖北省优秀学术论文一等奖。[<a href="min_doc/IEEE-COMST-Hubei-1stRankPaperAward.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>33</td>
+          <td>首次提出 Beyond-BAN 概念，通过体域网端与云端的融合，实现了健康大数据可持续性采集与管理。相关论文 [ACM MONET 16(2) 2011, IF:3.259] SCI引用<strong>451</strong>次 ,该刊1999年以来所有1200余篇论文中，被引频次排名第<strong>1</strong>。[<a href="min_paper/ACM-MONET-HighestCited-MinCHEN.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>34</td>
+          <td>首次提出并详尽阐述了大数据价值链的四个阶段: Data Generation, Data Acquisition, Data Storage, and Data Analysis。相关论文 [ACM MONET 19(2) 2014, IF:3.259] SCI引用<strong>391</strong>次 ,该刊1999年以来所有1200余篇论文中，被引频次排名第<strong>2</strong>。[<a href="min_paper/ACM-MONET-2nd-HighestCited-MinCHEN.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td> Min Chen , et al. "Software-Defined Mobile Networks Security", ACM/Springer Mobile Networks and Applications , Vol. 21, No. 5, pp. 729–743, 2016. 入选 21st Annual Best of Computing by ACM Computing Reviews. [<a href="min_doc/2016NotableItems-MinCHEN.pdf">pdf</a>] [<a href="min_doc/ACM-Computing-Reviews-2016NotableItems-MinCHEN.pdf">pdf</a>] [<a href="min_doc/SDMN-Securiy-ACM-Review.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>36</td>
+          <td><span >ESI Highly Cited Paper</span>: 
+
+
+          <strong>Min Chen</strong>, et al., "Wearable 2.0: Enable Human-Cloud Integration in Next Generation Healthcare System", IEEE Communications , Vol. 55, No. 1, pp. 54-61, Jan. 2017. </td>
+        </tr>
+        <tr>
+          <td>37</td>
+          <td><span >ESI Highly Cited Paper</span>: Y. Li,  <strong>Min Chen</strong> (通信作者), "Software-Defined Network Function Virtualization: A Survey", IEEE Access, Vol. 3, pp. 2542-2553, 2015.  </td>
+        </tr>
+        <tr>
+          <td>38</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, P. Zhou, G. Fortino, "Emotion Communication System", IEEE Access , Vol. 5, pp. 326-337, 2017. </td>
+        </tr>
+        <tr>
+          <td>39</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, et al., "Smart Clothing: Connecting Human with Clouds and Big Data for Sustainable Health Monitoring", ACM/Springer Mobile Networks and Applications, Vol. 21, No. 5, pp. 825–845, 2016.</td>
+        </tr>
+        <tr>
+          <td>40</td>
+          <td> <strong>Min Chen</strong>, Y. Miao, Y. Hao, K. Hwang, "Narrow Band Internet of Things", IEEE Access , Vol. 5, pp. 20557-20577, 2017. <span >Among the most popular paper in IEEExplore</span> [<a href="min_doc/IEEE-Access-NB-IoT-MostPopularIEEExplore-Nov-2017.pdf">link</a>] </td>
+        </tr>
+        <tr>
+          <td>41</td>
+          <td><span >ESI Highly Cited Paper</span>: C. Perera, C. Liu, S. Jayawardena, <strong>Min Chen</strong>, 
+
+ 
+"A Survey on Internet of Things From Industrial Market Perspective", IEEE Access, Vol. 2, pp. 1660-1679, 2014. [<a href="min_paper/HighlyCited/HighlyCitedPaper-IEEE-Access-IoT-Marketplace.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>42</td>
+          <td><span >中国计算机科学研究成果大赏</span>: Y. Zhang, <strong>Min Chen</strong> (通信作者), D. Huang, D. Wu, Y. Li, "iDoctor: Personalized and Professionalized Medical Recommendations Based on Hybrid Matrix Factorization", <em>Future Generation Computer Systems</em>, Vol. 66, pp. 30-35, Jan. 2017. 
+
+
+ 该论文提出了一种基于混合矩阵分解的推荐系统，旨在为用户推荐专业、个性化的医疗服务。[<a href="min_paper/iDoctor-Offlical-Recommendation-by-Elsevier.pdf">pdf</a>] </td>
+        </tr>
+        <tr>
+          <td>43</td>
+          <td><span >Cover Paper</span>: <strong>Min Chen</strong>, et al., "A 5G Cognitive System for Healthcare",<em> Big Data and Cognitive Computing</em>, Vol. 1, No. 1, DOI:10.3390/bdcc1010002, 2017. [<a href="min_paper/Feature/5G-Cognitive-System-CoverPaper.jpg">jpg</a>] </td>
+        </tr>
+        <tr>
+          <td>44</td>
+          <td><span >Among the most popular paper in IEEE TBD:<span > <strong>Min Chen</strong>, et al., "Deep Features Learning for Medical Image Analysis with Convolutional Autoencoder Neural Network", IEEE Trans. Big Data , DOI:10.1109/TBDATA.2017.2717439, 2017.</span> </span>[<a href="min_paper/Feature/IEEE-TBD-Popular-2017.pdf">pdf</a>] </td>
+        </tr>
+        <tr>
+          <td>45</td>
+          <td> <span >Cover Paper: </span><strong>Min Chen</strong>, et al., "5G-Smart Diabetes: Towards Personalized Diabetes Diagnosis with Healthcare Big Data Clouds", <em>IEEE Communications</em>, Vol. 56, No. 4, pp. 16-23, April 2018. [<a href="min_paper/Feature/2018-IEEE-Comm-5G-Smart-Diabetes-CoverPaper.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>46</td>
+          <td> Y. Zhang, <strong>Min Chen</strong>, "Cloud Based 5G Wireless Networks", SpringerBriefs in Computer Science, Springer, ISBN 978-3-319-47343-7, 2016. <span >由斯普林格出版的计算机科学丛书(eBook)，一年内(2017) 销售量2,815次</span>（注：通常情况下需要付费$/�24.99才能获得下载权限）[<a href="min_paper/Feature/2018-5G-BookPerformanceReport.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>47</td>
+          <td><span >2017年度华中科技大学本科教材出版专项奖励</span>: <strong>Min Chen</strong>, "认知计算导论". [<a href="min_paper/2017-HUST-Textbook-Award.pdf">pdf</a>] </td>
+        </tr>
+        <tr>
+          <td>48</td>
+          <td> <span > ESI Hot Paper</span>: <strong>Min Chen</strong>, Y. Hao , K. Hwang, L. Wang, L. Wang, "Disease Prediction by Machine Learning over Big Healthcare Data", IEEE Access , Vol. 5, No. 1, pp. 8869-8879, 2017. [<a href="min_paper/HighlyCited/HotPaper-DiseasePrediction-2017.jpg">jpg</a>]</td>
+        </tr>
+        <tr>
+          <td>49</td>
+          <td><strong>Min Chen</strong>, Y. Miao, Y. Hao, K. Hwang, "Narrow Band Internet of Things", <em>IEEE Access</em>, Vol. 5, pp. 20557-20577, 2017. <span >mong the most popular paper in IEEExplore </span>[<a href="min_paper/Feature/2018-NB-IoT-IEEE-MostPopular.pdf">link</a>]</td>
+        </tr>
+        <tr>
+          <td>50</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, Y. Hao , K. Hwang, L. Wang, L. Wang, "Disease Prediction by Machine Learning over Big Healthcare Data", IEEE Access , Vol. 5, No. 1, pp. 8869-8879, 2017. [<a href="min_paper/HighlyCited/HighlyCitedPaper-DiseasePrediction-2017.jpg">jpg</a>]</td>
+        </tr>
+        <tr>
+          <td>51</td>
+          <td> <span >ESI Highly Cited Paper</span>: Z. Sheng, C. Mahapatra, V. Leung,<strong> Min Chen</strong> , P. Sahu, "Energy Efficient Cooperative Computing in Mobile Wireless Sensor Networks", IEEE Trans. on Cloud Computing , Vol. 6, No. 1, pp. 114-126, 2018. [<a href="min_paper/HighlyCited/HighlyCitedPaper-IEEE-TCC-2018.jpg">jpg</a>]</td>
+        </tr>
+        <tr>
+          <td>52</td>
+          <td><span >ESI Highly Cited Paper</span>:<strong> Min Chen</strong>, Y. Hao, L. Hu, K. Huang, V. Lau, "Green and Mobility-aware Caching in 5G Networks", <em>IEEE Trans. Wireless Communications</em>, Vol. 16, No. 12, pp. 8347-8361, 2017. </td>
+        </tr>
+        <tr>
+          <td>53</td>
+          <td><span >ESI Highly Cited Paper</span>: <strong>Min Chen</strong>, Y. Qian, Y. Hao, Y. Li, J. Song, "Data-Driven Computing and Caching in 5G Networks: Architecture and Delay Analysis", <em> IEEE Wireless Communications</em>, Vol. 25, No. 1, pp. 70-75, Feb. 2018.</td>
+        </tr>
+        <tr>
+          <td>54</td>
+          <td><span >ESI Highly Cited Paper</span>: X. Hou, Y. Li,<strong> Min Chen</strong>, et al., "Vehicular Fog Computing: A Viewpoint of Vehicles As the Infrastructures", IEEE Trans. Vehicular Technology , Vol. 65, No. 6, pp. 3860-3873, 2016. [<a href="min_paper/HighlyCited/HighlyCitedPaper-IEEE-TVT-2018.jpg">jpg</a>] [<a href="min_paper/HighlyCited/HighlyCitedPaper-IEEE-TVT-2018.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>55</td>
+          <td><span >ESI Highly Cited Paper</span>: H. Lu, Y. Li,<strong> Min Chen</strong>, et al., "Brain Intelligence: Go Beyond Artificial Intelligence", <em>ACM/Springer Mobile Networks and Applications</em>, Vol. 23, No. 2, pp. 368-375, 2018. [<a href="min_paper/HighlyCited/HighlyCited&amp;HotPaper-MONET-BrainIntelligence-2018.pdf">pdf</a>]</td>
+        </tr>
+        <tr>
+          <td>56</td>
+          <td><strong>Min Chen</strong>, et al., "Big Data: Related Technologies, Challenges and Future Prospects", SpringerBriefs in Computer Science, Springer, ISBN 978-3-319-06245-7, 2014. <span >由斯普林格出版的计算机科学丛书，eBook累计销售量43,509次</span>（注：通常情况下需要付费$/�24.99才能获得下载权限）[<a href="min_paper/Feature/2018-BigDataBookPerformanceReport.pdf">pdf</a>]</td>
+        </tr>
+      </tbody></table>
