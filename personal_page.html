@@ -200,7 +200,7 @@
 										<tbody id="publications"></tbody>
                                     </table>
                                     <div class = "viewMore">
-                                        <a id = "viewMorePublications" href = "#personal_page">view more</a>
+                                        <a id = "viewMorePublications" href = "#personal_page">view all</a>
                                     </div>
 								</div>
 								<div class="clearfix"></div>
@@ -221,7 +221,7 @@
                                         <tbody id="awards"></tbody>
                                     </table>
                                     <div class = "viewMore">
-                                        <a id = "viewMoreAwards" href = "#personal_page">view more</a>
+                                        <a id = "viewMoreAwards" href = "#personal_page">view all</a>
                                     </div>
 								</div>
 								<div class="clearfix"></div>
@@ -469,32 +469,104 @@
             //     error: function () {
             //     }
             // })
-            $('#publications').bootstrapTable({
+            $.ajax({
+                type: "get",
                 url: "personal_information/"+name+"/"+name+"_publications.json",
-                columns: [{
-                    field: 'id',
-                    title: 'id'
-                }, {
-                    field: 'content',
-                    title: 'content'
-                }],
-                pagination: "true"  ,
-                pageSize:"6",
-                pageList:[6,10, 25, 50, 100]
-            });
-            $('#publications2').bootstrapTable({
-                url: "personal_information/"+name+"/"+name+"_publications.json",
-                columns: [{
-                    field: 'id',
-                    title: 'id'
-                }, {
-                    field: 'content',
-                    title: 'content'
-                }],
-                pagination: "true"  ,
-                pageSize:"10",
-                pageList:[10, 25, 50, 100]
-            });
+                dataType: "json",
+                success: function (data) {
+                    var count = 0;
+                    $.each(data, function (i, n) {
+                        count = i;
+                    })
+                    if(count == 0){
+                        // if($.isEmptyObject(data)){
+                        publications_html+="<tr style = \"border: 0;\"><td >No publications yet.</td><tr></tr>";
+                        $("#publications").append(publications_html);
+                        $("#publications2").append(publications_html);
+                    }
+                    else if (count<5)
+					{
+                        $('#publications').bootstrapTable({
+                            url: "personal_information/"+name+"/"+name+"_publications.json",
+                            columns: [{
+                                field: 'id',
+                                title: 'id'
+                            }, {
+                                field: 'content',
+                                title: 'content'
+                            }]
+
+                        });
+                        $('#publications2').bootstrapTable({
+                            url: "personal_information/"+name+"/"+name+"_publications.json",
+                            columns: [{
+                                field: 'id',
+                                title: 'id'
+                            }, {
+                                field: 'content',
+                                title: 'content'
+                            }]
+                        });
+					}
+					else if (count <9){
+                        $('#publications').bootstrapTable({
+                            url: "personal_information/"+name+"/"+name+"_publications.json",
+                            columns: [{
+                                field: 'id',
+                                title: 'id'
+                            }, {
+                                field: 'content',
+                                title: 'content'
+                            }],
+                            pagination: "true"  ,
+                            pageSize:"5",
+                            pageList:[5,10, 25, 50, 100]
+
+                        });
+                        $('#publications2').bootstrapTable({
+                            url: "personal_information/"+name+"/"+name+"_publications.json",
+                            columns: [{
+                                field: 'id',
+                                title: 'id'
+                            }, {
+                                field: 'content',
+                                title: 'content'
+                            }]
+                        });
+					}
+                    else {
+                        $('#publications').bootstrapTable({
+                            url: "personal_information/"+name+"/"+name+"_publications.json",
+                            columns: [{
+                                field: 'id',
+                                title: 'id'
+                            }, {
+                                field: 'content',
+                                title: 'content'
+                            }],
+                            pagination: "true"  ,
+                            pageSize:"5",
+                            pageList:[5,10, 25, 50, 100]
+                        });
+                        $('#publications2').bootstrapTable({
+                            url: "personal_information/"+name+"/"+name+"_publications.json",
+                            columns: [{
+                                field: 'id',
+                                title: 'id'
+                            }, {
+                                field: 'content',
+                                title: 'content'
+                            }],
+                            pagination: "true"  ,
+                            pageSize:"10",
+                            pageList:[10, 25, 50, 100]
+                        });
+					}
+                },
+                error: function () {
+                }
+            })
+
 		}
         function load() {
             var name = getURLParameter("name");
