@@ -24,12 +24,12 @@
     "photo":"./personal_information/WenjingX/WenjingX_profile_photo.png"
   },
   {"id":4,
-    "name":"Caoyong",
+    "name":"CaoYong",
     "nameToShow":"Yong Cao",
     "degree":"Ph.D Candidate",
     "year":2018,
     "research_interests":"Cognitive computing&<br>Communication network",
-    "photo":"./personal_information/Caoyong/Caoyong_profile_photo.png"
+    "photo":"./personal_information/CaoYong/CaoYong_profile_photo.png"
   },
   {"id":4,
     "name":"LiMiao",
