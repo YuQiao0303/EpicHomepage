@@ -20,6 +20,7 @@
 		
 	<!-- css files -->
 	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/bootstrap-table.css">
 	<link rel="stylesheet" href="css/personal_page_style.css" type="text/css" media="all" /> <!-- Style-CSS -->
 	<link rel="stylesheet" href="css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
 	<!-- //css files -->
@@ -385,7 +386,9 @@
 
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap -->
+	<script type="text/javascript" src="js/bootstrap-table.js"></script>
 	<!-- //js -->
 	<script type="text/javascript" src="js/showdown.js"></script>
 	<!-- start-smoth-scrolling -->
@@ -474,29 +477,55 @@
         function load_publications(){
             var publications_html="";
             var name = getURLParameter("name");
-            $.ajax({
-                type: "get",
+            // $.ajax({
+            //     type: "get",
+            //     url: "personal_information/"+name+"/"+name+"_publications.json",
+            //     dataType: "json",
+            //     success: function (data) {
+            //         $.each(data, function (i, n) {
+            //             publications_html = "<tr><td style = \"width:20px;\">";
+            //             publications_html+=n.id;
+            //             publications_html+="</td><td>"
+            //             publications_html+=n.content;
+            //             publications_html+="</td></tr>"
+            //             $("#publications2").append(publications_html);
+            //             if(i<10){$("#publications").append(publications_html);}
+            //         })
+            //         if(publications_html==""){
+            //             publications_html+="<tr style = \"border: 0;\"><td >No publications yet.</td><tr></tr>";
+            //             $("#publications").append(publications_html);
+            //             $("#publications2").append(publications_html);
+            //         }
+            //     },
+            //     error: function () {
+            //     }
+            // })
+            $('#publications').bootstrapTable({
                 url: "personal_information/"+name+"/"+name+"_publications.json",
-                dataType: "json",
-                success: function (data) {
-                    $.each(data, function (i, n) {
-                        publications_html = "<tr><td style = \"width:20px;\">";
-                        publications_html+=n.id;
-                        publications_html+="</td><td>"
-                        publications_html+=n.content;
-                        publications_html+="</td></tr>"
-                        $("#publications2").append(publications_html);
-                        if(i<10){$("#publications").append(publications_html);}
-                    })
-                    if(publications_html==""){
-                        publications_html+="<tr style = \"border: 0;\"><td >No publications yet.</td><tr></tr>";
-                        $("#publications").append(publications_html);
-                        $("#publications2").append(publications_html);
-                    }
-                },
-                error: function () {
-                }
-            })
+                columns: [{
+                    field: 'id',
+                    title: 'id'
+                }, {
+                    field: 'content',
+                    title: 'content'
+                }],
+                pagination: "true"  ,
+                pageSize:"6",
+                pageList:[6,10, 25, 50, 100]
+            });
+            $('#publications2').bootstrapTable({
+                url: "personal_information/"+name+"/"+name+"_publications.json",
+                columns: [{
+                    field: 'id',
+                    title: 'id'
+                }, {
+                    field: 'content',
+                    title: 'content'
+                }],
+                pagination: "true"  ,
+                pageSize:"10",
+                pageList:[10, 25, 50, 100]
+            });
 		}
         function load() {
             var name = getURLParameter("name");

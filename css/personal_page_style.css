@@ -4,6 +4,74 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+/*button for pages*/
+.btn-secondary {
+    color: #3F51B5;
+    background-color: #fff;
+    border-color: #3F51B5;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #3F51B5;
+    /*border-color: #545b62;*/
+}
+
+.btn-secondary:focus, .btn-secondary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+/*.btn-secondary.disabled, .btn-secondary:disabled {*/
+    /*color: #fff;*/
+    /*background-color: #6c757d;*/
+    /*border-color: #6c757d;*/
+/*}*/
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #3F51B5;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+/*page links*/
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #3F51B5;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-link:hover {
+    color: #3F51B5;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.page-link:focus {
+    z-index: 2;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.page-link:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #3F51B5;
+    border-color: #3F51B5;
+}
 /*fix the left column too left bug */
 .viewMore {
     text-align: right;
