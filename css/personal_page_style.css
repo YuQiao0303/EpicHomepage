@@ -1107,7 +1107,7 @@ h5.mt-0 {
 @media screen and (max-width: 667px) {
     .row {
         margin-right: 5px;
-        margin-left: 5px;
+        margin-left: 0px;    /*edit here to 保证手机端时能对齐*/
     }
     .blog-side.blog-top-right {
         padding-right: 0;

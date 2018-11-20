@@ -56,16 +56,16 @@
 							</a>
 							<ul class="dropdown-menu agile_short_dropdown">
 								<li>
-									<a href="members.html">Teachers</a>
+									<a href="members.html?tab=teachers">Teachers</a>
 								</li>
 								<li>
-									<a href="members.html">Post_docs</a>
+									<a href="members.html?tab=post_docs">Post_docs</a>
 								</li>
 								<li>
-									<a href="members.html">Ph.D Candidates</a>
+									<a href="members.html?tab=phds">Ph.D Candidates</a>
 								</li>
 								<li>
-									<a href="members.html">Master Candidates</a>
+									<a href="members.html?tab=masters">Master Candidates</a>
 								</li>
 							</ul>
 						</li>
@@ -75,13 +75,13 @@
 							</a>
 							<ul class="dropdown-menu agile_short_dropdown">
 								<li>
-									<a href="publications.html">Awards</a>
+									<a href="publications.html?tab=awards">Awards</a>
 								</li>
 								<li>
-									<a href="publications.html">Publications</a>
+									<a href="publications.html?tab=publications">Publications</a>
 								</li>
 								<li>
-									<a href="publications.html">Patents</a>
+									<a href="publications.html?tab=patents">Patents</a>
 								</li>
 
 							</ul>
@@ -92,10 +92,10 @@
 							</a>
 							<ul class="dropdown-menu agile_short_dropdown">
 								<li>
-									<a href="projects.html">Finished Projects</a>
+									<a href="projects.html?tab=projects_finished">Finished Projects</a>
 								</li>
 								<li>
-									<a href="projects.html">Projects Going On</a>
+									<a href="projects.html?tab=projects_goingon">Projects Going On</a>
 								</li>
 
 							</ul>
@@ -109,13 +109,13 @@
 									<a href="news.html">All</a>
 								</li>
 								<li>
-									<a href="news.html">Visits</a>
+									<a href="news.html?tab=visits">Visits</a>
 								</li>
 								<li>
-									<a href="news.html">Conferences</a>
+									<a href="news.html?tab=conferences">Conferences</a>
 								</li>
 								<li>
-									<a href="news.html">universities</a>
+									<a href="news.html?tab=universities">Universities</a>
 								</li>
 							</ul>
 						</li>
@@ -155,7 +155,7 @@
 					<a href="#home_tab_content" class="active show" id = "home_tab" role="tab" data-toggle="tab">All</a>
 				</li>
 				<li role="presentation">
-					<a href="#visitors_tab_content"  id = "visitors_tab" role="tab" data-toggle="tab">Visits</a>
+					<a href="#visits_tab_content" id ="visits_tab" role="tab" data-toggle="tab">Visits</a>
 				</li>
 				<li role="presentation">
 					<a href="#conferences_tab_content" id = "conferences_tab" role="tab" data-toggle="tab">Conferences</a>
@@ -193,7 +193,7 @@
 				<!--home_tab_content-->
 			</div>
 			<!--publication content-->
-			<div role="tabpanel" class="tab-pane" id="visitors_tab_content">
+			<div role="tabpanel" class="tab-pane" id="visits_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
 						<!--<div class="blog-img">-->
@@ -328,6 +328,14 @@
             readMd("news_visits.md", "news_visits");
             readMd("news_conferences.md", "news_conferences");
             readMd("news_universities.md", "news_universities");
+            gotoTab();
+            function gotoTab() {
+                var tab = "#" + getURLParameter("tab") + "_tab";
+                $(tab).click();
+            }
+            function getURLParameter(parameter_name) {
+                return decodeURIComponent((new RegExp('[?|&]' + parameter_name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+            }
             function readMd(filePath, classId) {
                 var xhr = new XMLHttpRequest();
                 xhr.open('get','files/'+filePath,true);
