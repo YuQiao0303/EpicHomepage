@@ -36,7 +36,7 @@
 	<header>
 		<div class="container agile-banner_nav">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<image height="100" width="100" src="images/logo.png" alt="Card image cap" ></image>
+				<image class="epic_logo" src="images/logo.png" alt="Card image cap" ></image>
 				<!--	<h1><a class="navbar-brand" href="index.html">EPIC<span class="display" style="font-size:12px"> Laboratory</span></a></h1> -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -106,7 +106,7 @@
                             </a>
                             <ul class="dropdown-menu agile_short_dropdown">
                                 <li>
-                                    <a href="news.html">All</a>
+                                    <a href="news.html?tab=all">All</a>
                                 </li>
                                 <li>
                                     <a href="news.html?tab=visits">Visits</a>
@@ -152,7 +152,8 @@
 		<div class="mytab">
 			<ul class="nav nav-tabs" role="tablist">
 				<li role="presentation">
-					<a href="#teachers_tab_content" class="active show" id = "teachers_tab" role="tab" data-toggle="tab">Teachers</a>
+					<a href="#teachers_tab_content"  id = "teachers_tab" role="tab" data-toggle="tab">Teachers</a>
+					<!--<a href="#teachers_tab_content" class="active show" id = "teachers_tab" role="tab" data-toggle="tab">Teachers</a>-->
 				</li>
 				<li role="presentation">
 					<a href="#post_docs_tab_content" id ="post_docs_tab" role="tab" data-toggle="tab">Post_docs</a>
@@ -171,7 +172,7 @@
 		<div class="tab-content">
 
 			<!--publication content-->
-			<div role="tabpanel" class="tab-pane active" id="teachers_tab_content">
+			<div role="tabpanel" class="tab-pane" id="teachers_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
 
@@ -357,13 +358,13 @@
 <script>
 
     $(function () {
-
+        gotoTab();
         loadTeachers();
         loadPostDocs();
         loadPhDs();
         loadMasters();
         getURLParameter(name);
-        gotoTab();
+
         function gotoTab() {
            var tab = "#" + getURLParameter("tab") + "_tab";
             $(tab).click();

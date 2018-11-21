@@ -100,7 +100,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 @font-face{
     font-family: 'signature';
-    src : url('../webfonts/李旭科钢笔行书.ttf');
+    src : url('../webfonts/mySignature.ttf');
 }
 body{
     padding:0;

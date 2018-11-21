@@ -36,7 +36,7 @@
 	<header>
 		<div class="container agile-banner_nav">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<image height="100" width="100" src="images/logo.png" alt="Card image cap" ></image>
+				<image class="epic_logo" src="images/logo.png" alt="Card image cap" ></image>
 				<!--	<h1><a class="navbar-brand" href="index.html">EPIC<span class="display" style="font-size:12px"> Laboratory</span></a></h1> -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -106,7 +106,7 @@
 							</a>
 							<ul class="dropdown-menu agile_short_dropdown">
 								<li>
-									<a href="news.html">All</a>
+									<a href="news.html?tab=all">All</a>
 								</li>
 								<li>
 									<a href="news.html?tab=visits">Visits</a>
@@ -152,7 +152,7 @@
 		<div class="mytab">
 			<ul class="nav nav-tabs" role="tablist">
 				<li role="presentation" >
-					<a href="#home_tab_content" class="active show" id = "home_tab" role="tab" data-toggle="tab">All</a>
+					<a href="#all_tab_content" id ="all_tab" role="tab" data-toggle="tab">All</a>
 				</li>
 				<li role="presentation">
 					<a href="#visits_tab_content" id ="visits_tab" role="tab" data-toggle="tab">Visits</a>
@@ -168,7 +168,7 @@
 
 		<!-- 面板区 -->
 		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane active" id="home_tab_content">
+			<div role="tabpanel" class="tab-pane" id="all_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
 						<!--<div class="blog-img">-->
