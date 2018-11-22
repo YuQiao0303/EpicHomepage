@@ -1,5 +1,5 @@
 # EpicHomepage
-This website project mainly uses the following template:
+This website project mainly uses the following templates:
 
 [indoor design](http://sc.chinaz.com/moban/180929598780.htm)
 
