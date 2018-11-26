@@ -776,7 +776,7 @@ ul.footer-nav li a:hover {
         line-height: 126px;
     }
 
-    .text-center{
+    .wrapper>.text-center{
         display: none;
     }
 }
