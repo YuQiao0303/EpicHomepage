@@ -139,35 +139,133 @@
     </div>
 </div>
 <!-- //banner -->
-
+<!--main contents-->
 <section class="banner-bottom-w3ls-agileinfo py-5">
 	<!--/blog-->
 	<div class="container py-md-3">
 		<br>
 		<h2 class="signature" id="name" ></h2>
 		<h2 class="heading text-capitalize mb-sm-5 mb-3" id="personal_page"> Overview </h2>
+		<!-- 导航区 -->
+		<div class="mytab">
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" >
+					<a href="#overview_tab_content" id ="overview_tab" role="tab" data-toggle="tab">Overview</a>
+				</li>
+				<li role="presentation">
+					<a href="#AIWAC_tab_content" id = "AIWAC_tab" role="tab" data-toggle="tab">情感交互机器人</a>
+				</li>
+				<li role="presentation">
+					<a href="#emotion_tab_content" id = "emotion_tab" role="tab" data-toggle="tab">情感识别交互算法</a>
+				</li>
+				<li role="presentation">
+					<a href="#wearable_tab_content" id = "wearable_tab" role="tab" data-toggle="tab">智能可穿戴设备</a>
+				</li>
 
-		<div class="blog-sp">
-			<article class="blog-x">
-				<!--<div class="blog-img">-->
-				<!--<a href="single.html">-->
-				<!--<img src="" alt="" class="img-fluid" />-->
-				<!--</a>-->
-				<!--</div>-->
-				<div class="blog_info">
-					<!--<h5>-->
-						<!--Overview-->
-					<!--</h5>-->
+			</ul>
+		</div>
 
-					<!--<br>-->
-					<div id="lab_brief"></div>
+		<!-- 面板区 -->
+		<div class="tab-content active">
+
+			<!--publication content-->
+			<div role="tabpanel" class="tab-pane active" id="overview_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+						<!--<div class="blog-img">-->
+						<!--<a href="single.html">-->
+						<!--<img src="" alt="" class="img-fluid" />-->
+						<!--</a>-->
+						<!--</div>-->
+						<div class="blog_info">
+							<h5>
+							Overview
+							</h5>
+
+							<!--<br>-->
+							<div id="overview_overview"></div>
+
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
 
 				</div>
-				<div class="clearfix"></div>
-			</article>
-			<br>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="AIWAC_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+						<!--<div class="blog-img">-->
+						<!--<a href="single.html">-->
+						<!--<img src="" alt="" class="img-fluid" />-->
+						<!--</a>-->
+						<!--</div>-->
+						<div class="blog_info">
+							<h5>
+								AIWAC情感交互机器人
+							</h5>
 
+							<br>
+							<div id="overview_AIWAC"></div>
+
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
+
+				</div>
+			</div>
+
+			<div role="tabpanel" class="tab-pane" id="emotion_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+						<!--<div class="blog-img">-->
+						<!--<a href="single.html">-->
+						<!--<img src="" alt="" class="img-fluid" />-->
+						<!--</a>-->
+						<!--</div>-->
+						<div class="blog_info">
+							<h5>
+								情感识别与交互算法
+							</h5>
+
+							<br>
+							<div id="overview_emotion"></div>
+
+
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
+
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="wearable_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+						<!--<div class="blog-img">-->
+						<!--<a href="single.html">-->
+						<!--<img src="" alt="" class="img-fluid" />-->
+						<!--</a>-->
+						<!--</div>-->
+						<div class="blog_info">
+							<h5>
+								智能可穿戴设备
+							</h5>
+
+							<br>
+							<div id="overview_wearable"></div>
+
+
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
+
+				</div>
+			</div>
 		</div>
+
 	</div>
 </section>
 
@@ -228,10 +326,26 @@
 
     <script type="text/javascript">
         function load() {
-            readMd("overview.md", "lab_brief");
-            // readMd("最新动态.md", "lab_news");
-            // readMd("lab_director.md", "lab_director");
-            // readMd("lab_research.md", "lab_research");
+            gotoTab();
+            readMd("overview_overview.md", "overview_overview");
+            readMd("overview_AIWAC.md", "overview_AIWAC");
+            readMd("overview_emotion.md", "overview_emotion");
+            readMd("overview_wearable.md", "overview_wearable");
+            function gotoTab() {
+                if(getURLParameter("tab")!=null)
+                {
+                    var tab = "#" + getURLParameter("tab") + "_tab";
+                    $(tab).click();
+                }
+                else
+                {
+                    $("#overview_tab").click();
+                }
+
+            }
+            function getURLParameter(parameter_name) {
+                return decodeURIComponent((new RegExp('[?|&]' + parameter_name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+            }
             function readMd(filePath, classId) {
                 var xhr = new XMLHttpRequest();
                 xhr.open('get','files/'+filePath,true);

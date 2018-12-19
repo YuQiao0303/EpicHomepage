@@ -307,8 +307,16 @@
         readMd("publications_patents.md", "publications_patents");
 
         function gotoTab() {
-            var tab = "#" + getURLParameter("tab") + "_tab";
-            $(tab).click();
+            if(getURLParameter("tab")!=null)
+			{
+			    var tab = "#" + getURLParameter("tab") + "_tab";
+            	$(tab).click();
+			}
+			else
+			{
+                $("#awards_tab").click();
+			}
+
         }
         function getURLParameter(parameter_name) {
             return decodeURIComponent((new RegExp('[?|&]' + parameter_name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
