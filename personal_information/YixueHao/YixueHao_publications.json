@@ -1,59 +1,86 @@
-[
-  {"id":1,
-    "content":"<strong>Yixue Hao</strong>, M. Chen, L. Hu, J. Song, M. Volk, I. Humar, \"Wireless Fractal Ultra-dense Cellular Networks\", Sensors, Vol. 17, No. 4, pp. 841-848, 2017. （JCR二区期刊，影响因子2.677）"
-  },
-  {"id":2,
-    "content":"<strong>Yixue Hao</strong>, L. Peng, H. Lu, M. Hassan, A. Alamri, \"Energy Harvesting Based Body Area Networks for Smart Health\", Sensors, Vol. 17, pp. 1602-1611, 2017. （JCR二区期刊，影响因子2.677）"
-  },
-  {"id":3,
-    "content":"M. Chen, <strong>Yixue Hao</strong>, Y. Li, C. Lai, D. Wu, “On The Computation Offloading at Ad Hoc Cloudlet: Architecture and Service Models\", IEEE Communications, Vol. 53, No. 6, pp. 18-24, June 2015. （JCR一区期刊，影响因子10.435） ESI Highly Cited Paper (发表于 10 年内各领域中被引用频率达到 ESI 前 1% 基准线的文章)"
-  },
-  {"id":4,
-    "content":"M. Chen, <strong>Yixue Hao</strong>, C. Lai, D. Wu, Y. Li, K. Hwang, “Opportunistic Workflow Scheduling over Co-Located Clouds in Mobile Environment\", IEEE Trans. Service Computing, DOI: 10.1109/TSC.2016.2589247, 2016. （JCR一区期刊，影响因子 3.52）"
-  },
-  {"id":5,
-    "content":"X. Shi, <strong>Yixue Hao</strong>, D. Zeng, L. Wang, M. Hossain, S. Rahman, A. Alelaiwiet, “Cloud-Assisted Mood Fatigue Detection System\", ACM/Springer Mobile Networks and Applications, Vol. 21, No. 5, pp. 744-752, 2016. （JCR二区期刊，影响因子3.259）"
-  },
-  {"id":6,
-    "content":"M. Chen, <strong>Yixue Hao</strong>, M. Qiu, J. Song, D. Wu, I. Humar, \"Mobility-aware Caching and Computation Offloading in 5G Ultradense Cellular Networks\", Sensors, Vol. 16, No. 7, pp. 974-987, 2016. （JCR二区期刊，影响因子2.677）"
-  },
-  {"id":7,
-    "content":"M. Chen, <strong>Yixue Hao</strong>, K. Hwang, L. Wang, L. Wang, \"Disease Prediction by Machine Learning over Big Healthcare Data\", IEEE Access, Vol. 5, No. 1, pp. 8869-8879, 2017. （JCR二区期刊，影响因子3.244） Among the most popular paper in IEEExplore [link]"
-  },
-  {"id":8,
-    "content":"P. Zhou, <strong>Yixue Hao</strong>, J. Yang, W. Li, L. Wang, Y. Miao, J. Song, \"Cloud-assisted Hugtive Robot for Affective Interaction\", Multimedia Tools and Applications, Vol. 76, No. 8, pp. 10839–10854, 2017. （JCR二区期刊，影响因子1.530） "
-  },
-  {"id":9,
-    "content":"M. Chen, <strong>Yixue Hao</strong>, L. Hu, K. Huang, V. Lau, \"Green and Mobility-aware Caching in 5G Networks\", IEEE Trans. Wireless Communications, in revision, 2016. （JCR一区期刊，影响因子4.951）"
-  },
-  {"id":10,
-    "content":"B. Li, L. Peng, <strong>Yixue Hao</strong>, Y. Miao, M. Hassan, \"Energy-Efficient Multiperiod Planning of Optical Core Network to Support 5G Networks\", Transactions on Emerging Telecommunications Technologies, DOI: 10.1002/ett.3147, 2017. （JCR二区期刊，影响因子1.535）"
-  },
-  {"id":11,
-    "content":"M. Chen, <strong>Yixue Hao</strong>, et al., \"Task Scheduling in 5G Ultra-dense Cellular Networks with Renewable Energy Supplies\", IEEE Trans. Wireless Communications, under review, 2017. （JCR一区期刊，影响因子4.951）"
-  },
-  {"id":12,
-    "content":"X. Shi, Y. Hu, Y. Zhang, W. Li, <strong>Yixue Hao</strong>, A. Alelaiwi, S. Rahman, M. Hossain, \"Multiple Disease Risk Assessment with Uniform model based on Medical Clinical Notes\", IEEE Access, Vol. 4, pp. 7074-7083, Sep. 2016. "
-  },
-  {"id":13,
-    "content":"M. Chen, J. Yang, <strong>Yixue Hao</strong> (*corresponding author), S. Mao, K. Hwang, \"A 5G Cognitive System for Healthcare\", Big Data and Cognitive Computing, Vol. 1, No. 1, DOI:10.3390/ bdcc1010002, 2017."
-  },
-  {"id":14,
-    "content":"M. Chen, Y. Zhang, M. Qiu, N. Guizani, <strong>Yixue Hao</strong> (*corresponding author),\"SPHA: Smart Personal Health Advisor Based on Deep Analytics\", IEEE Communications, accepted, 2017. （JCR一区期刊，影响因子10.435）"
-  },
-  {"id":15,
-    "content":"M. Chen, Y. Qian, <strong>Yixue Hao</strong>, Y. Li, J. Song, \"Data-Driven Computing and Caching in 5G Networks: Architecture and Delay Analysis\", IEEE Wireless Communications, to appear, 2017. （ JCR 一区期刊，影响因子 8.972 ）"
-  },
-  {"id":16,
-    "content":"Y. Ma, <strong>Yixue Hao</strong>, Y. Qian, M. Chen, “Cloud-assisted Humanoid Robotics for Affective Interaction\", IEEE ICCAR 2016, HK, April 28-30, 2016. "
-  },
-  {"id":17,
-    "content":"M. Chen, Y. Ma, <strong>Yixue Hao</strong>, Y. Li, D. Wu, Y. Zhang, E. Song, \"CP-Robot: Cloud-assisted Pillow Robot for Emotion Sensing and Interaction\", Industrialiot 2016, Guangzhou, China, Mar. 2016.  (Best Paper Award)"
-  },
-  {"id":18,
-    "content":"M. Chen, <strong>Yixue Hao</strong>, S. Mao, D. Wu, Y. Zhou, \"User Intent-oriented Video QoE with Emotion Detection Networking\", IEEE Globecom, Washington, USA, Dec. 4-8, 2016. "
-  },
-  {"id":19,
-    "content":"M. Chen, <strong>Yixue Hao</strong>, Y. Li, D. Wu, D. Huang, “Demo: LIVES: Learning through Interactive Video and Emotion-aware System”, ACM Mobihoc 2015, Hangzhou, June 22-25, 2015."
-  }
+﻿[
+{"id":1,
+"content":"M. Chen, <strong>Yixue Hao</strong> (通信作者), \"Task Offloading for Mobile Edge Computing in Software Defined Ultra-dense Network\", IEEE Journal on Selected Areas in Communications, Vol. 36, No. 3, pp. 587-597, Mar. 2018. (JCR一区期刊，影响因子8.085)  CCF计算机A类期刊"
+},
+{"id":2,
+"content":"<strong>Yixue Hao</strong>, J. Yang, M. Chen, et al., “Emotion-aware Video QoE Assessment via Transfer Learning\", IEEE Multimedia, to appear, 2018."
+},
+{"id":3,
+"content":"<strong>Yixue Hao</strong>, M. Chen, L. Hu, J. Song, M. Volk, I. Humar, \"Wireless Fractal Ultra-dense Cellular Networks\", Sensors, Vol. 17, No. 4, pp. 841-848, 2017. （JCR二区期刊，影响因子2.677）"
+},
+{"id":4,
+"content":"<strong>Yixue Hao</strong>, L. Peng, H. Lu, M. Hassan, A. Alamri, \"Energy Harvesting Based Body Area Networks for Smart Health\", Sensors, Vol. 17, pp. 1602-1611, 2017. （JCR二区期刊，影响因子2.677）"
+},
+{"id":5,
+"content":"M. Chen, <strong>Yixue Hao</strong>, L. Hu, K. Huang, V. Lau, “Green and Mobility-aware Caching in 5G Networks\", IEEE Trans. Wireless Communications, Vol. 16, No. 12, pp. 8347-8361, 2017.（JCR一区期刊，影响因子4.951）"
+},
+{"id":6,
+"content":"<strong>Yixue Hao</strong>, D. Tian, G. Fortino, J. Zhang, I. Humar, “Network Slicing Technology in 5G Wearable Network\", IEEE Communications Standards Magazine, Vol. 2, No. 1, pp. 66-71, March 2018."
+},
+{"id":7,
+"content":"<strong>Yixue Hao</strong>, Yiming Miao , L. Hu, M. Hossain, G. Muhammad, \"Smart-Edge-CoCaCo: AI-Enabled Smart Edge with Joint Computation, Caching, and Communication in Heterogeneous IoT\",IEEE Network , under revision, 2018. （JCR 一区期刊，影响因子 7.230）"
+},
+{"id":8,
+"content":"M. Chen, <strong>Yixue Hao</strong>, Y. Li, C. Lai, D. Wu, “On The Computation Offloading at Ad Hoc Cloudlet: Architecture and Service Models\", IEEE Communications, Vol. 53, No. 6, pp. 18-24, June 2015. （JCR一区期刊，影响因子10.435） ESI Highly Cited Paper (发表于 10 年内各领域中被引用频率达到 ESI 前 1% 基准线的文章)"
+},
+{"id":9,
+"content":"M. Chen, Y. Zhang, M. Qiu, N. Guizani, <strong>Yixue Hao</strong> (通信作者), \"SPHA: Smart Personal Health Advisor Based on Deep Analytics\", IEEE Communications, Vol. 56, No. 3, pp. 164-169, Mar. 2018. （JCR一区期刊，影响因子10.435） "
+},
+{"id":10,
+"content":"<strong>Yixue Hao</strong>, M. Chen, L. Hu, M. Hossain, A. Ghoneim, \"Energy Efficient Task Caching and Offloading for Mobile Edge Computing\", IEEE Access, Vol. 6, No. 1, pp. 11365-11373, Dec. 2018. "
+},
+{"id":11,
+"content":"M. Chen, Y. Qian, <strong>Yixue Hao</strong>, Y. Li, J. Song, \"Data-Driven Computing and Caching in 5G Networks: Architecture and Delay Analysis\", IEEE Wireless Communications, Vol. 25, No. 1, pp. 70-75, Feb. 2018. （ JCR 一区期刊，影响因子 8.972 ）"
+},
+{"id":12,
+"content":"M. Chen, <strong>Yixue Hao</strong>, C. Lai, D. Wu, Y. Li, K. Hwang, “Opportunistic Workflow Scheduling over Co-Located Clouds in Mobile Environment\", IEEE Trans. Service Computing, Vol. 11, No. 3, pp. 549-561, 2018. （JCR一区期刊，影响因子 3.52）"
+},
+{"id":13,
+"content":"M. Chen, <strong>Yixue Hao</strong>, \"Label-less Learning for Traffic Control in an Edge Network\", IEEE Network, 2018."
+},
+{"id":14,
+"content":"M. Chen, <strong>Yixue Hao</strong>, et al., \" AI-Enabled Task Offloading (AITO) over Smart Fogs and Clouds: A Case Study on Emotion Detection\", IEEE Journal on Selected Areas in Communications, submitted, 2018. (JCR一区期刊，影响因子8.085) CCF计算机A类期刊"
+},
+{"id":15,
+"content":"M. Chen, J. Yang, J. Zhou, <strong>Yixue Hao</strong>(通信作者), C. Youn, \"5G-Smart Diabetes: Towards Personalized Diabetes Diagnosis with Healthcare Big Data Clouds\", IEEE Communications, Vol. 56, No. 4, pp. 16-23, April 2018. (JCR一区期刊，影响因子10.435)"
+},
+{"id":16,
+"content":"M. Chen, Y. Miao, <strong>Yixue Hao</strong> (通信作者), K. Hwang, \"Narrow Band Internet of Things\", IEEE Access , Vol. 5, pp. 20557-20577, 2017. (JCR二区期刊，影响因子3.244） Among the most popular paper in IEEExplore"
+},
+{"id":17,
+"content":"M. Chen, W. Li, <strong>Yixue Hao</strong>, Y. Qian, I. Humar, \"Edge Cognitive Computing based Smart Healthcare System\", Future Generation Computing System, DOI: 10.1016/j.future. 2018.03.054, 2018. （JCR 一区期刊，影响因子 4.639）"
+},
+{"id":18,
+"content":"M. Chen, <strong>Yixue Hao</strong>, L. Hu \"Edge-CoCaCo: Towards Joint Optimization of Computation, Caching and Communication on Edge Cloud\", IEEE Wireless Communications, June 2018. (JCR 一区期刊，影响因子 8.972)"
+},
+{"id":19,
+"content":"X. Shi, <strong>Yixue Hao</strong>, D. Zeng, L. Wang, M. Hossain, S. Rahman, A. Alelaiwiet, “Cloud-Assisted Mood Fatigue Detection System\", ACM/Springer Mobile Networks and Applications, Vol. 21, No. 5, pp. 744-752, 2016. （JCR二区期刊，影响因子3.259）"
+},
+{"id":20,
+"content":"M. Chen, <strong>Yixue Hao</strong>, M. Qiu, J. Song, D. Wu, I. Humar, \"Mobility-aware Caching and Computation Offloading in 5G Ultradense Cellular Networks\", Sensors, Vol. 16, No. 7, pp. 974-987, 2016. （JCR二区期刊，影响因子2.677）"
+},
+{"id":21,
+"content":"M. Chen, <strong>Yixue Hao</strong>, K. Hwang, L. Wang, L. Wang, \"Disease Prediction by Machine Learning over Big Healthcare Data\", IEEE Access, Vol. 5, No. 1, pp. 8869-8879, 2017. （JCR二区期刊，影响因子3.244） Among the most popular paper in IEEExplore [link]; ESI Highly Cited Paper (发表于 10 年内各领域中被引用频率达到 ESI 前 1% 基准线的文章) ESI Highly Hot Paper (发表于 2 年内近2个月各领域中被引用频率达到 ESI 前 0.1% 基准线的文章)"
+},
+{"id":22,
+"content":"P. Zhou, <strong>Yixue Hao</strong>, J. Yang, W. Li, L. Wang, Y. Miao, J. Song, \"Cloud-assisted Hugtive Robot for Affective Interaction\", Multimedia Tools and Applications, Vol. 76, No. 8, pp. 10839–10854, 2017. JCR二区期刊，影响因子1.530） "
+},
+{"id":23,
+"content":"B. Li, L. Peng, <strong>Yixue Hao</strong>, Y. Miao, M. Hassan, \"Energy-Efficient Multiperiod Planning of Optical Core Network to Support 5G Networks\", Transactions on Emerging Telecommunications Technologies, DOI: 10.1002/ett.3147, 2017. （JCR二区期刊，影响因子1.535）"
+},
+{"id":24,
+"content":"X. Shi, Y. Hu, Y. Zhang, W. Li, <strong>Yixue Hao</strong>, A. Alelaiwi, S. Rahman, M. Hossain, \"Multiple Disease Risk Assessment with Uniform model based on Medical Clinical Notes\", IEEE Access, Vol. 4, pp. 7074-7083, Sep. 2016. "
+},
+{"id":25,
+"content":"M. Chen, J. Yang, <strong>Yixue Hao</strong> (通信作者), S. Mao, K. Hwang, \"A 5G Cognitive System for Healthcare\", Big Data and Cognitive Computing, Vol. 1, No. 1, DOI:10.3390/ bdcc1010002, 2017."
+},
+{"id":26,
+"content":"Y. Ma, <strong>Yixue Hao</strong>, M. Chen, J. Chen, P. Lu, Andrej Kosir , \"Audio-visual emotion fusion (AVEF): A deep efficient weighted approach\", Information Fusion, Vol. 46, pp. 184-192, 2019. （JCR一区期刊，影响因子6.639）"
+},
+{"id":27,
+"content":"<strong>Yixue Hao</strong>, M. Usama, J. Yang, M. Hossain, A. Ghoneim, \"Recurrent Convolutional Neural Network based Multimodal Disease Risk Prediction\", Future Generation Computing System, 2018."
+},
+{"id":28,
+"content":"Min Chen , W. Li, G. Fortino, <strong>Yixue Hao</strong>, L. Hu, I. Humar, \"A Dynamic Service-Migration Mechanism in Edge Cognitive Computing\", ACM Transactions on Internet Technology, https://arxiv.org/pdf/1808.07198, 2018."
+}
 ]
