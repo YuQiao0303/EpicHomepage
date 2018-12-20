@@ -146,68 +146,39 @@
 		<br>
 		<h2 class="signature" id="name" ></h2>
 		<h2 class="heading text-capitalize mb-sm-5 mb-3" id="personal_page"> News</h2>
-
-
 		<!-- 导航区 -->
 		<div class="mytab">
 			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" >
-					<a href="#all_tab_content" id ="all_tab" role="tab" data-toggle="tab">All</a>
+				<li role="presentation">
+					<a href="#north_America_in_tab_content"  id = "north_America_in_tab" role="tab" data-toggle="tab" style="width: auto;padding-left: 20px;padding-right:20px">北美地区来访</a>
 				</li>
 				<li role="presentation">
-					<a href="#visits_tab_content" id ="visits_tab" role="tab" data-toggle="tab">Visits</a>
+					<a href="#north_America_out_tab_content" id = "north_America_out_tab" role="tab" data-toggle="tab" style="width: auto;padding-left: 20px;padding-right:20px">北美地区去访</a>
 				</li>
 				<li role="presentation">
-					<a href="#conferences_tab_content" id = "conferences_tab" role="tab" data-toggle="tab">Conferences</a>
+					<a href="#other_in_tab_content" id = "other_in_tab" role="tab" data-toggle="tab" style="width: auto;padding-left: 20px;padding-right:20px">欧洲、日韩、港澳台来访</a>
 				</li>
 				<li role="presentation">
-					<a href="#universities_tab_content" id = "universities_tab" role="tab" data-toggle="tab">universities</a>
+					<a href="#other_out_tab_content" id = "other_out_tab" role="tab" data-toggle="tab" style="width: auto;padding-left: 20px;padding-right:20px">欧洲、日韩、港澳台去访</a>
+				</li>
+				<li role="presentation">
+					<a href="#double_first_tab_content" id = "double_first_tab" role="tab" data-toggle="tab" style="width: auto;padding-left: 20px;padding-right:20px">已邀请的双一流计划专家</a>
 				</li>
 			</ul>
 		</div>
 
 		<!-- 面板区 -->
 		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane" id="all_tab_content">
-				<div class="blog-sp">
-					<article class="blog-x">
-						<!--<div class="blog-img">-->
-						<!--<a href="single.html">-->
-						<!--<img src="" alt="" class="img-fluid" />-->
-						<!--</a>-->
-						<!--</div>-->
-						<div class="blog_info">
-							<h5>
-								All
-							</h5>
 
-							<br>
-							<div id="news_all"></div>
-
-						</div>
-						<div class="clearfix"></div>
-					</article>
-					<br>
-
-				</div>
-				<!--home_tab_content-->
-			</div>
 			<!--publication content-->
-			<div role="tabpanel" class="tab-pane" id="visits_tab_content">
+			<div role="tabpanel" class="tab-pane" id="north_America_in_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
-						<!--<div class="blog-img">-->
-						<!--<a href="single.html">-->
-						<!--<img src="" alt="" class="img-fluid" />-->
-						<!--</a>-->
-						<!--</div>-->
-						<div class="blog_info">
-							<h5>
-								Visits
-							</h5>
 
-							<br>
-							<div id="news_visits"></div>
+						<div class="blog_info">
+							<!--主体内容-->
+							<div class="album py-5 bg-light" id = "north_America_in"></div>
+							<!--主体内容-->
 
 						</div>
 						<div class="clearfix"></div>
@@ -216,21 +187,15 @@
 
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="conferences_tab_content">
+
+			<div role="tabpanel" class="tab-pane" id="north_America_out_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
-						<!--<div class="blog-img">-->
-						<!--<a href="single.html">-->
-						<!--<img src="" alt="" class="img-fluid" />-->
-						<!--</a>-->
-						<!--</div>-->
-						<div class="blog_info">
-							<h5>
-								Conferences
-							</h5>
 
-							<br>
-							<div id="news_conferences"></div>
+						<div class="blog_info">
+							<!--主体内容-->
+							<div class="album py-5 bg-light" id = "north_America_out"></div>
+							<!--主体内容-->
 
 						</div>
 						<div class="clearfix"></div>
@@ -239,21 +204,46 @@
 
 				</div>
 			</div>
-			<div role="tabpanel" class="tab-pane" id="universities_tab_content">
+			<div role="tabpanel" class="tab-pane" id="other_in_tab_content">
 				<div class="blog-sp">
 					<article class="blog-x">
-						<!--<div class="blog-img">-->
-						<!--<a href="single.html">-->
-						<!--<img src="" alt="" class="img-fluid" />-->
-						<!--</a>-->
-						<!--</div>-->
-						<div class="blog_info">
-							<h5>
-								Universities
-							</h5>
 
-							<br>
-							<div id="news_universities"></div>
+						<div class="blog_info">
+							<!--主体内容-->
+							<div class="album py-5 bg-light" id = "other_in"></div>
+							<!--主体内容-->
+
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
+
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="other_out_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+
+						<div class="blog_info">
+							<!--主体内容-->
+							<div class="album py-5 bg-light" id = "other_out"></div>
+							<!--主体内容-->
+
+						</div>
+						<div class="clearfix"></div>
+					</article>
+					<br>
+
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="double_first_tab_content">
+				<div class="blog-sp">
+					<article class="blog-x">
+
+						<div class="blog_info">
+							<!--主体内容-->
+							<div class="album py-5 bg-light" id = "double_first"></div>
+							<!--主体内容-->
 
 						</div>
 						<div class="clearfix"></div>
@@ -264,6 +254,8 @@
 			</div>
 		</div>
 	</div>
+
+
 
 </section>
 
@@ -324,10 +316,14 @@
 
     <script type="text/javascript">
         function load() {
-            readMd("news_all.md", "news_all");
-            readMd("news_visits.md", "news_visits");
-            readMd("news_conferences.md", "news_conferences");
-            readMd("news_universities.md", "news_universities");
+            readMd("news_north_America_in.md", "north_America_in");
+            readMd("news_north_America_out.md", "north_America_out");
+            readMd("news_other_in.md", "other_in");
+            readMd("news_other_out.md", "other_out");
+            readMd("news_double_first.md", "double_first");
+            //readMd("news_visits.md", "news_visits");
+            //readMd("news_conferences.md", "news_conferences");
+            //readMd("news_universities.md", "news_universities");
             gotoTab();
             function gotoTab() {
                 var tab = "#" + getURLParameter("tab") + "_tab";
