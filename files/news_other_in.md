@@ -33,7 +33,7 @@
 									<div class="card mb-4 shadow-sm">
 										<img class="card-img-top"  alt="news1.jpeg" style="height: 100%; width: 100%; display: block;" src="images/news/news12.jpeg" data-holder-rendered="true">
 										<div class="card-body">
-											<p class="card-text text-center">IEEE Life Fellow, Kai Hwang访问EPIC实验室</p>
+											<p class="card-text text-center">台湾国立交通大学，IEEE Fellow，Prof. Li-Chun Wang访问EPIC实验室</p>
 										</div>
 									</div>
 								</div>
