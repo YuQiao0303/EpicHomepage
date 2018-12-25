@@ -57,6 +57,6 @@ document.writeln("							<a href=\'news.html\' class=\'nav-link\' >News</a>");
 document.writeln("						</li>");
 document.writeln("");
 document.writeln("                        <li class=\'nav-item\'>");
-document.writeln("                            <a href=\'Recruitment.html\' class=\'nav-link\' >Recruitment</a>");
+document.writeln("                            <a href=\'recruitment.html\' class=\'nav-link\' >Recruitment</a>");
 document.writeln("                        </li>");
 document.writeln("                    </ul>");
