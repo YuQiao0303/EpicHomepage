@@ -7,8 +7,3 @@
 　　<a href="overview.html?tab=emotion" >2. 情感识别交互算法</a>
 　　<a href="overview.html?tab=wearable" >3. 智能可穿戴设备</a>
 
-　　您也可以查看以下视频：
-　　<a href="video_1.html" >1. 一伴智能陪伴机器人</a>
-　　<a href="video_2.html" >2. 可穿戴情感机器人</a>
-　　<a href="video_3.html" >3. 戏精的诞生</a>
-　　<a href="video_4.html" >4. AI智慧衣</a>
