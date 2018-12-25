@@ -84,7 +84,7 @@ html[xmlns] .slides {display: block;}
 .flex-control-nav {
     display: inline-flex;
     position: absolute;
-    left: 42.6%;  /*4 li:42.6;         3 li: 47*/
+    left: 44%;  /*4 li:42.6;         3 li: 47*/
     margin-left: 0px;
     bottom: 0%;
 }
